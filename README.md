@@ -1,10 +1,28 @@
-# prep virtual environment (currently Python 2.7)
+# iRODS.org website
+
+## Requirements
+- python
+- virtualenv
+
+## Prepare virtual environment
+```
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
-# build site
-pelican content -t themes/irods_theme
+- Installs Pelican and other necessary python modules.
 
-# deploy via rsync
+## Build site
+```
+make
+```
+
+- Cleans existing output directory and rebuilds website
+
+## Deploy via rsync
+```
 rsync -arv output/ user@target:/path/to/output/
+```
+
+- Syncs built output directory to target server
