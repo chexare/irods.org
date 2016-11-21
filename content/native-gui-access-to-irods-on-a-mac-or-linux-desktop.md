@@ -29,7 +29,7 @@ form with the 3-Clause BSD license and the source repository can be
 found at [github.com](https://github.com/ilarik/kanki-irodsclient).
 Currently it builds against irods-4.1.x on Linux and Mac OS X.
 
-[![](http://i.imgur.com/QfCAoVe.png "source: imgur.com")](http://i.imgur.com/QfCAoVe.png)
+[![Kanki](http://i.imgur.com/QfCAoVe.png "source: imgur.com")](http://i.imgur.com/QfCAoVe.png)
 
 There are precompiled RPM packages for CentOS/RHEL versions 6 and above
 - distributed alongside the source releases at
@@ -48,7 +48,7 @@ class="lang:default decode:true crayon-inline">iinit</span> . Later on
 there will be proper graphical configuration management of iRODS
 connections and credentials.
 
-[![](http://i.imgur.com/xaTRkp3.png "source: imgur.com")](http://i.imgur.com/xaTRkp3.png)
+[![metadata](http://i.imgur.com/xaTRkp3.png "source: imgur.com")](http://i.imgur.com/xaTRkp3.png)
 
 Currently the client has most of the basic iRODS functions implemented
 as well as a graphical metadata editor with configurable schema
