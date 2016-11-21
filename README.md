@@ -2,7 +2,11 @@
 
 ## Requirements
 - python
-- virtualenv
+- pip
+
+Then:
+
+```pip install virtualenv```
 
 ## Prepare virtual environment
 ```
