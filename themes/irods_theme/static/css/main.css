@@ -6,8 +6,9 @@
 
 body {
     overflow-x: hidden;
-    font-family: tristram,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: lighter;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    color:#888888;
 }
 
 p {
@@ -34,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: tristram,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     font-weight: bold;
     color:#58595b;
 }
@@ -114,10 +115,11 @@ header .intro-text .skills {
     font-weight: 300;
 }
 .navbar-brand{
-    background: url("../img/r_icon.png")no-repeat;
+    background: url("../img/irods_logo.png")no-repeat;
     background-size: contain;
-    height:33px;
-    width:33px;
+    cursor: pointer;
+    height:34px;
+    width:140px;
     padding: 0px;
     margin: 13px;
 }
@@ -136,7 +138,7 @@ header .intro-text .skills {
 }
 
 
-@media(min-width:768px) {
+@media(min-width:768px) {    
     .skill_list li{
         text-align: left;
     }
@@ -237,8 +239,8 @@ header .intro-text .skills {
     list-style: none;
 }
 .navbar {
-    font-family: tristram,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: bold;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: normal;
     background: #fff url("../img/top_banner.jpg")repeat-x top;
     background-size: 240px;
 }
@@ -310,7 +312,7 @@ section.green_bg {
     background-size: cover;
     min-height: 600px;
     line-height: 22px;
-    font-weight: bold;
+    font-weight: normal;
     width:100%;
     text-align: center;
     text-align: -webkit-center;
@@ -318,13 +320,13 @@ section.green_bg {
 }
 section.green_bg a{
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: underline;
 }
 section.white_bg{
     min-height: 600px;
     line-height: 22px;
-    font-weight: bold;
+    font-weight: normal;
     width:100%;
     text-align: center;
     text-align: -webkit-center;
@@ -333,7 +335,7 @@ section.white_bg{
 section.white_bg_page{
     min-height: 600px;
     line-height: 22px;
-    font-weight: bold;
+    font-weight: normal;
     width:100%;
     padding: 120px 0px 50px 0px;
 }
@@ -411,7 +413,7 @@ td{
     min-height: 230px;
 }
 .core_competencies_text{
-    font-size: 11px;
+    font-size: 12px;
     text-align: left;
     border-left: 2px solid #18bc9c;
 }
@@ -470,20 +472,34 @@ td{
 .navbar-toggle:hover .icon-bar {
     background-color: #fff;
 }
+.core_competencies_container a{
+    color:#58595b;
+}
 @media(max-width:992px){
     .core_icon{
         max-width: 180px;
     }
 }
-@media all and (max-width: 991px) and (min-width: 851px){
-    .core_competencies_container{
-        padding: 0px 60px;
+@media(max-width:580px){
+    .funded_cell{
+        border: 1px solid #aaa;
+        height:92px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .funded_cell_dark{
+        border: 1px solid #aaa;
+        background: #efefef;
+        padding-left:10px;
+        padding-right:10px;
+        height:92px;
     }
 }
-.core_competencies_container a{
-    color:#58595b;
-}
 @media(max-width:767px) {
+    .navbar-brand{
+        margin: 20px 0px 0px 14px;
+        height: 24px;
+    }
     .member_description{
         text-align: left;
         margin: 0px 0px 0px 15px;
@@ -541,15 +557,13 @@ td{
         padding-left:10px;
         padding-right:10px;
     }
-}
-@media(min-width:1580px) {
     .core_competencies_container{
-        max-width: 525px;
+        width: 800px;
         margin: auto auto;
         text-align: center;
         float: none;
     }
-}  
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
