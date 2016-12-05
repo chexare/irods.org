@@ -7,6 +7,7 @@ Status: published
 
 The iRODS Consortium and RENCI are pleased to announce iRODS 4.2.0.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ImG7xg9V8EQ" frameborder="0" allowfullscreen></iframe>
 (**Released live on stage from the iRODS Workshop at Supercomputing
 2016**)
 
