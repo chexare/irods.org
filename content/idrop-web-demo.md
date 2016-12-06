@@ -51,13 +51,13 @@ as explained in my previous post.
 Step 2. Next, you need to install a Java web application server to host
 iDrop Web. I use Tomcat for this.
 
-~~~~ {.lang:sh .highlight:0 .nums:false .decode:true}
+~~~~
 iCAT-VM$ sudo apt-get install openjdk-6-jdk tomcat6
 ~~~~
 
 Step 3. Download and edit the iDrop Web 2 configuration file.
 
-~~~~ {.lang:sh .highlight:0 .nums:false .decode:true}
+~~~~
 iCAT-VM$ sudo mkdir /etc/idrop-web
 iCAT-VM$ sudo wget -P /etc/idrop-web http://people.renci.org/~danb/FOR_DEMOS/iDrop-Web-2/idrop-web-config2.groovy
 ~~~~
@@ -70,7 +70,7 @@ your iRODS configuration. Note that I have added a slash on line 21 to
 close the previous comment and removed a "\*/" on line 28, where the
 comment used to terminate.
 
-~~~~ {.lang:default .range:18-28 .decode:true}
+~~~~
 /*
  * Configuration for idrop-web - iDROP Cloud browser
  * Project page: https://code.renci.org/gf/project/irodsidrop/
@@ -127,7 +127,7 @@ idrop.config.use.browse.view=false
 Step 4. Download the iDrop Web 2 WAR file. This is the entire iDrop Web
 2 package, which Tomcat will expand automatically after it downloads.
 
-~~~~ {.lang:sh .highlight:0 .nums:false .decode:true}
+~~~~
 iCAT-VM$ sudo wget -P /var/lib/tomcat6/webapps http://people.renci.org/~danb/FOR_DEMOS/iDrop-Web-2/idrop-web2.war
 ~~~~
 

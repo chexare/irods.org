@@ -37,20 +37,20 @@ FROM ubuntu:14.04
 Start with the Ubuntu 14.04 Docker image. This is the definitive minimal
 Ubuntu installation, checked in to Docker Hub.
 
-~~~~ {.lang:default .decode:true .start-line:2}
+~~~~
 MAINTAINER danb renci.org
 ~~~~
 
 (That's me.)
 
-~~~~ {.lang:default .decode:true .start-line:4}
+~~~~
 RUN apt-get update
 RUN apt-get upgrade -y
 ~~~~
 
 Bring the Ubuntu package repository up to date.
 
-~~~~ {.lang:default .decode:true .start-line:7}
+~~~~
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
@@ -60,7 +60,7 @@ ENV LC_ALL en_US.UTF-8
 For some reason, the locale doesn't appear to get set automatically. I'm
 not certain if this is a Docker- or an Ubuntu image-related issue.
 
-~~~~ {.lang:default .decode:true .start-line:12}
+~~~~
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y openssh-server supervisor postgresql-9.3 wget dpkg sudo libcurl4-gnutls-dev
 ~~~~
 
@@ -68,13 +68,13 @@ This is the first set of packages I wanted to get installed. These are
 necessary for the rest of the Dockerfile, even if the iRODS dependencies
 change.
 
-~~~~ {.lang:default .decode:true .start-line:14}
+~~~~
 RUN mkdir -p /var/run/sshd
 ~~~~
 
 Set up a working directory for SSHd, the SSH server.
 
-~~~~ {.lang:default .decode:true .start-line:16}
+~~~~
 #set up supervisor
 RUN mkdir -p /var/log/supervisor
 ADD ./common/supervisord.conf.etc /etc/supervisor/supervisord.conf
@@ -90,7 +90,7 @@ control Supervisor. I may be able to omit this file in the next update.
 The /etc/supervisor/conf.d/supervisord.conf specifies particular options
 and commands for the services we are setting up.
 
-~~~~ {.start-line:21 .lang:default .decode:true}
+~~~~
 # set up an admin user
 RUN useradd admin
 RUN echo 'admin:admin' | chpasswd
@@ -102,7 +102,7 @@ RUN chsh -s /bin/bash admin
 By default, the only user in the container is root. This block creates
 an admin user, which by default has sudo privileges.
 
-~~~~ {.lang:default .decode:true .start-line:28}
+~~~~
 #install iRODS
 RUN wget -P /home/admin ftp://ftp.renci.org/pub/irods/releases/4.0.3/irods-database-plugin-postgres-1.3.deb
 RUN wget -P /home/admin ftp://ftp.renci.org/pub/irods/releases/4.0.3/irods-icat-4.0.3-64bit.deb
@@ -110,7 +110,7 @@ RUN wget -P /home/admin ftp://ftp.renci.org/pub/irods/releases/4.0.3/irods-icat-
 
 Get the .deb packages from ftp.renci.org.
 
-~~~~ {.start-line:32 .lang:default .decode:true}
+~~~~
 # install package dependencies to prevent Docker build from erring out
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y `dpkg -I /home/admin/irods-icat-4.0.3-64bit.deb | sed -n 's/^ Depends: //p' | sed 's/,//g'`
 RUN dpkg -i /home/admin/irods-icat-4.0.3-64bit.deb
@@ -125,7 +125,7 @@ Ordinarily, we can run "dpkg -i" on the iRODS packages and then run
 identify the dependencies using "dpkg -I" and install the dependencies
 before installing the iRODS packages.
 
-~~~~ {.start-line:39 .lang:default .decode:true}
+~~~~
 # irods needs to be part of admin to execute supervisorctl
 RUN usermod -G admin -a irods
 ~~~~
@@ -134,7 +134,7 @@ At one point, I had the iRODS setup\_database.sh script using
 supervisorctl to start the irodsserver process. That is no longer the
 case, and I believe I can remove these lines now.
 
-~~~~ {.start-line:42 .lang:default .decode:true}
+~~~~
 # set up the iCAT database
 RUN service postgresql start &&   
 sudo -u postgres createdb -O postgres 'ICAT' -E UTF8 -l en_US.UTF-8 -T template0 &&   
@@ -149,7 +149,7 @@ terminated between command line executions. Note that I had to specify
 the character encoding (UTF8), whereas this is typically done by
 default.
 
-~~~~ {.start-line:48 .lang:default .decode:true}
+~~~~
 ADD ./icat/server.sh /home/admin/server.sh
 RUN chmod a+x /home/admin/server.sh
 ~~~~
@@ -158,7 +158,7 @@ server.sh is the command that supervisor uses to start the iRODS server.
 Supervisor can only start interactive (i.e., not daemon) processes, so
 we can't use "irodsctl start" to bring up the server.
 
-~~~~ {.lang:default .decode:true .start-line:51}
+~~~~
 #irods setup_database
 ADD ./icat/dbresp /home/admin/dbresp
 RUN service postgresql start &&   
@@ -168,7 +168,7 @@ sudo su -c "/var/lib/irods/packaging/setup_database.sh
 Run the iRODS setup\_database.sh script using the "dbresp" file as the
 set of inputs to the script.
 
-~~~~ {.start-line:56 .lang:default .decode:true}
+~~~~
 #change irods user's irodsEnv file to point to localhost, since it was configured with a transient Docker container's hostname
 RUN sed -i 's/^irodsHost.*/irodsHost localhost/' /var/lib/irods/.irods/.irodsEnv
 ~~~~
@@ -180,7 +180,7 @@ localhost. Note that setup\_database.sh also set up the default storage
 resource with the same hostname. There is a line in the "runAll.sh"
 script below that fixes this.
 
-~~~~ {.lang:default .decode:true .start-line:59}
+~~~~
 #begin idrop-web installation
 #set up tomcat and nginx
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y openjdk-6-jdk tomcat6 nginx
@@ -188,7 +188,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y openjdk-6-jdk tomcat6 ngin
 
 Set up Tomcat (application server) and Nginx (http server).
 
-~~~~ {.start-line:63 .lang:default .decode:true}
+~~~~
 RUN mkdir /usr/share/tomcat6/server
 RUN mkdir /usr/share/tomcat6/server/classes
 RUN mkdir /usr/share/tomcat6/classes
@@ -198,7 +198,7 @@ RUN mkdir /usr/share/tomcat6/shared/classes
 
 Tomcat throws warnings if these directories aren't there.
 
-~~~~ {.start-line:69 .lang:default .decode:true}
+~~~~
 ADD ./idrop/tcstart.sh /home/admin/tcstart.sh
 RUN chmod a+x /home/admin/tcstart.sh
 ADD ./idrop/server.xml /etc/tomcat6/server.xml
@@ -208,7 +208,7 @@ tcstart.sh sets some environment variables and starts the Tomcat server.
 It is used by Supervisor. server.xml has been modified from the default
 to set up port 8443 as an https port, using autogenerated keys.
 
-~~~~ {.start-line:73 .lang:default .decode:true}
+~~~~
 # set up fake SSL keys
 ADD ./idrop/keyresp /home/admin/keyresp
 RUN mkdir /usr/local/ssl
@@ -219,7 +219,7 @@ RUN /usr/lib/jvm/java-6-openjdk-amd64/bin/keytool -genkey -alias tomcat
 Generate (not quite fake) SSL keys. keyresp contains the responses to
 the keytool dialog.
 
-~~~~ {.start-line:79 .lang:default .decode:true}
+~~~~
 #pull idrop-web files
 RUN mkdir /etc/idrop-web
 ADD ./idrop/idrop-web-config2.groovy /etc/idrop-web/idrop-web-config2.groovy
@@ -227,7 +227,7 @@ ADD ./idrop/idrop-web-config2.groovy /etc/idrop-web/idrop-web-config2.groovy
 
 Bring in the idrop-web configuration file.
 
-~~~~ {.start-line:83 .lang:default .decode:true}
+~~~~
 # set defaults for runtime variables that will be loaded into idrop-web-config2.groovy
 RUN export port80=8552
 RUN export port8443=8551
@@ -242,7 +242,7 @@ make idrop-web refer back to the host machine's hostname and the
 appropriate re-directed TCP ports. We set default values in case these
 variables are not exported on the "docker run" command line.
 
-~~~~ {.start-line:91 .lang:default .decode:true}
+~~~~
 RUN mkdir /usr/share/nginx/html/idrop-release
 RUN wget -P /usr/share/nginx/html/idrop-release http://people.renci.org/~danb/FOR_DEMOS/iDrop-Web-2/idrop-lite-2.0.1-SNAPSHOT-jar-with-dependencies.jar
 RUN wget -P /usr/share/nginx/html/idrop-release http://people.renci.org/~danb/FOR_DEMOS/iDrop-Web-2/idrop.jnlp
@@ -251,7 +251,7 @@ RUN wget -P /var/lib/tomcat6/webapps http://people.renci.org/~danb/FOR_DEMOS/iDr
 
 Put the idrop-web files in the container.
 
-~~~~ {.start-line:96 .lang:default .decode:true}
+~~~~
 ADD ./idrop/runAll.sh /home/admin/runAll.sh
 RUN chmod a+x /home/admin/runAll.sh
 ~~~~
@@ -259,13 +259,13 @@ RUN chmod a+x /home/admin/runAll.sh
 Add runAll.sh, which executes run-time configuration and starts the SSH,
 Tomcat, Nginx, and iCAT server processes.
 
-~~~~ {.start-line:99 .lang:default .decode:true}
+~~~~
 EXPOSE 22 80 8443 1247
 ~~~~
 
 Expose the TCP ports for SSH, HTTP, HTTPS, and iRODS.
 
-~~~~ {.start-line:100 .lang:default .decode:true}
+~~~~
 ENTRYPOINT /usr/bin/supervisord "-n"
 ~~~~
 

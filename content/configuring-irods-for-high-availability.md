@@ -51,7 +51,7 @@ configure /etc/hosts as follows:
 
 #### LoadBalancer.example.org
 
-~~~~ {.lang:default .decode:true}
+~~~~
 127.0.0.1        LoadBalancer.example.org localhost
 192.168.1.151    ICAT1.example.org
 192.168.1.152    ICAT2.example.org
@@ -59,7 +59,7 @@ configure /etc/hosts as follows:
 
 #### ICAT1.example.org
 
-~~~~ {.lang:default .decode:true}
+~~~~
 127.0.0.1        ICAT1.example.org localhost
 192.168.1.150    LoadBalancer.example.org
 192.168.1.153    DB1.example.org
@@ -69,7 +69,7 @@ configure /etc/hosts as follows:
 
 #### ICAT2.example.org
 
-~~~~ {.lang:default .decode:true}
+~~~~
 127.0.0.1        ICAT2.example.org localhost
 192.168.1.150    LoadBalancer.example.org
 192.168.1.153    DB1.example.org
@@ -79,7 +79,7 @@ configure /etc/hosts as follows:
 
 #### Resource1.example.org
 
-~~~~ {.lang:default .decode:true}
+~~~~
 127.0.0.1        Resource1.example.org localhost
 192.168.1.156    Resource2.example.org
 192.168.1.150    LoadBalancer.example.org
@@ -87,7 +87,7 @@ configure /etc/hosts as follows:
 
 ####  Resource2.example.org
 
-~~~~ {.lang:default .decode:true}
+~~~~
 127.0.0.1        Resource2.example.org localhost
 192.168.1.155    Resource1.example.org
 192.168.1.150    LoadBalancer.example.org
@@ -95,7 +95,7 @@ configure /etc/hosts as follows:
 
 ####  CLI1.example.org
 
-~~~~ {.lang:default .decode:true}
+~~~~
 127.0.0.1        CLI1.example.org localhost
 192.168.1.155    Resource1.example.org
 192.168.1.156    Resource2.example.org
@@ -104,7 +104,7 @@ configure /etc/hosts as follows:
 
 ####  DB1.example.org
 
-~~~~ {.lang:default .decode:true}
+~~~~
 127.0.0.1        DB1.example.org localhost
 192.168.1.151    ICAT1.example.org
 192.168.1.152    ICAT2.example.org
@@ -121,7 +121,7 @@ In our test setup we use HAProxy to perform software level HTTP and TCP
 load balancing.  HAProxy can be downloaded on Ubuntu 14.04 systems using
 the following commands:
 
-~~~~ {.lang:sh .decode:true}
+~~~~
 echo deb http://archive.ubuntu.com/ubuntu trusty-backports main universe |  sudo tee /etc/apt/sources.list.d/backports.list
 sudo apt-get update
 sudo apt-get install haproxy -t trusty-backports
@@ -138,7 +138,7 @@ ICAT servers.
 
 The following configuration file can be used to configure HAProxy:
 
-~~~~ {.lang:default .decode:true}
+~~~~
   global
         daemon
         maxconn 256
@@ -172,7 +172,7 @@ outside of the scope of this post.
 Assuming the configuration listed above is in ./haproxy.cfg and HAProxy
 is in the \$PATH, it can be started with the following command:
 
-~~~~ {.lang:default .decode:true}
+~~~~
 haproxy -f haproxy.cfg
 ~~~~
 
@@ -186,7 +186,7 @@ Installation](https://docs.irods.org/4.1.3/manual/installation/#installation).
  A DB client should be installed on the iCAT servers.  For PostgreSQL,
 this can be performed with the following command:
 
-~~~~ {.lang:default .decode:true}
+~~~~
 sudo apt-get install postgresql-client-9.4
 ~~~~
 
@@ -195,7 +195,7 @@ After installing and configuring PostgreSQL on DB1.example.org (see
 Setup](https://docs.irods.org/4.1.3/manual/installation/#icat-server)),
 test the connection from each iCAT server to the DB with the following:
 
-~~~~ {.lang:default .decode:true}
+~~~~
 psql -h 192.168.1.153 -U postgres
 ~~~~
 
@@ -232,7 +232,7 @@ After running "iinit" on the CLI server to setup up the client
 configuration, perform the following steps to create redundant
 resources.
 
-~~~~ {.lang:default .decode:true}
+~~~~
 iadmin mkresc BaseResource replication
 iadmin mkresc Resource1 'unixfilesystem' Resource1.example.org:/var/lib/irods/Vault
 iadmin mkresc Resource2 'unixfilesystem' Resource2.example.org:/var/lib/irods/Vault
@@ -242,7 +242,7 @@ iadmin addchildtoresc BaseResource Resource2
 
 The resource tree should appear as follows:
 
-~~~~ {.lang:default .decode:true}
+~~~~
 $ ilsresc --tree
   BaseResource:replication
   |____Resource1
@@ -253,7 +253,7 @@ $ ilsresc --tree
 On the CLI server, update \~/.irods/irods\_environment.json to use
 "BaseResource" as the default resource.
 
-~~~~ {.lang:default .decode:true}
+~~~~
 {
     "irods_default_resource": "BaseResource",
     "irods_host": "LoadBalancer.example.org",

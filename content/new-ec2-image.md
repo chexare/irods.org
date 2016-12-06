@@ -88,14 +88,14 @@ Step 13: Wait a few minutes, then check for a hostname.
 
 Step 14: Log in to your new instance using SSH.
 
-~~~~ {.toolbar:2 .nums:false .nums-toggle:false .lang:sh .decode:true}
+~~~~
 ssh -i <privatekey.pem> ubuntu@<instance hostname>
 ~~~~
 
 Step 15: Change the iRODS administrator (rods) password. The existing
 password has been randomly generated.
 
-~~~~ {.toolbar:2 .nums:false .nums-toggle:false .lang:default .decode:true}
+~~~~
 sudo su - irods
 iadmin moduser rods password <newpassword>
 ~~~~

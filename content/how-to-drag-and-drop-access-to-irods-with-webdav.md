@@ -65,7 +65,7 @@ certification chain.
 
 1.  Install Tomcat.  
 
-    ~~~~ {.lang:sh .decode:true}
+    ~~~~
     sudo apt-get install openjdk-7-jdk
     sudo update-java-alternatives -s java-1.7.0-openjdk-amd64
     sudo apt-get install tomcat7
@@ -73,7 +73,7 @@ certification chain.
 
 2.  Install Apache2.  
 
-    ~~~~ {.toolbar-overlay:false .lang:sh .decode:true}
+    ~~~~
     sudo apt-get install apache2
     ~~~~
 
@@ -93,7 +93,7 @@ certification chain.
    To create your own, install openssl and copy the certificates
     `/etc/ssl/certs`.
 
-    ~~~~ {.lang:sh .decode:true}
+    ~~~~
     sudo apt-get install openssl
     openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout webdavssl.key -out webdavssl.crt
     ~~~~
@@ -102,7 +102,7 @@ certification chain.
 
     <div class="full_image"><img src="./theme/uploads/2015/04/certs-1.png" /></div>
 
-    ~~~~ {.lang:sh .decode:true}
+    ~~~~
     sudo mv webdavssl.key /etc/ssl/certs
     sudo mv webdavssl.crt /etc/ssl/certs
     ~~~~
@@ -110,7 +110,7 @@ certification chain.
 6.  Create `/etc/apache2/sites-available/ajp_ssl.conf` and add the
     following content:
 
-    ~~~~ {.lang:xhtml .decode:true title="ajp_ssl.conf"}
+    ~~~~
     <VirtualHost *:443>
         # Change uppercase as sent by OS X Finder WebDAV to lowercase as recognized by mod_proxy
         RequestHeader edit Transfer-Encoding Chunked chunked early
@@ -144,7 +144,7 @@ certification chain.
 Clone the irods-webdav github repo.
 
 </p>
-~~~~ {.lang:sh .decode:true}
+~~~~
 sudo apt-get install git
 git clone https://github.com/DICE-UNC/irods-webdav
 ~~~~
@@ -162,7 +162,7 @@ d: Change class="io.milton.config.HttpManagerBuilder" to
 class="io.milton.ent.config.HttpManagerBuilderEnt"
 
 </li>
-~~~~ {.lang:xhtml .mark:17-21,39,44,49 .range:15-51 .decode:true}
+~~~~
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -269,14 +269,14 @@ you--`milton.license.properties` and `milton.license.sig`--in
 </li>
 One way to do this is with scp. On the VM:
 
-~~~~ {.lang:sh .decode:true}
+~~~~
 sudo apt-get install openssh-server
 sudo ufw allow 22
 ~~~~
 
 On the host:
 
-~~~~ {.lang:sh .decode:true}
+~~~~
 scp milton.license.* annie@192.168.59.103:/home/annie/irods-webdav/src/main/resources
 ~~~~
 
@@ -286,7 +286,7 @@ scp milton.license.* annie@192.168.59.103:/home/annie/irods-webdav/src/main/reso
 <li>
 Use Maven to build the connector.
 
-~~~~ {.lang:sh .decode:true}
+~~~~
 sudo apt-get install maven2
 cd irods-webdav
 mvn package -DskipTests
@@ -300,7 +300,7 @@ Otherwise, you will have to navigate to
 http://hostname.example.com/\<warfile filename\> to access your
 collection).
 
-~~~~ {.toolbar-overlay:false .lang:sh .decode:true}
+~~~~
 sudo rm -rf /var/lib/tomcat7/webapps/ROOT*
 sudo mv ~/irods-webdav/target/irods-webdav-0.0.1-SNAPSHOT.war /var/lib/tomcat7/webapps/ROOT.war
 sudo service tomcat7 restart

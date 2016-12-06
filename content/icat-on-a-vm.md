@@ -60,7 +60,7 @@ the iCAT server .deb and the Postgres plug-in .deb.
 Before installing the packages, you might as well set up your database
 first. For me, it was a matter of running:
 
-~~~~ {.lang:default .highlight:0 .decode:true .nums:false}
+~~~~
 $ sudo apt-get install postgresql-9.3
 ...
 $ sudo su - postgres

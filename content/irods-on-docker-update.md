@@ -49,14 +49,14 @@ Example syntax:
 
 iCAT only (loaded as background process)-
 
-~~~~ {.toolbar-overlay:false .nums:false .lang:sh .decode:true}
+~~~~
 docker pull irods/icat:4.0.3
 docker run -p [port 1247 redirect]:1247 -d -t irods/icat:4.0.3 [new rodsadmin password]
 ~~~~
 
 iCAT + iDrop Web 2 (loaded as background process)-
 
-~~~~ {.toolbar-overlay:false .nums:false .lang:sh .decode:true}
+~~~~
 docker pull irods/idrop-web2:4.0.3
 docker run -p [port 1247 redirect]:1247 -p [port 80 redirect]:80   
  -e DOCKER_PORT80=[port 80 redirect] -e DOCKER_HOSTNAME=[hostname of the host machine]   
@@ -65,7 +65,7 @@ docker run -p [port 1247 redirect]:1247 -p [port 80 redirect]:80
 
 iCommands (loaded as foreground process)-
 
-~~~~ {.toolbar-overlay:false .nums:false .lang:sh .decode:true}
+~~~~
 docker pull irods/icommands:4.0.3
 docker run -ti irods/icommands:4.0.3
 ~~~~

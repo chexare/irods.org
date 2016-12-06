@@ -117,7 +117,7 @@ Each rule engine plugin is demonstrated with an accompanying rule base
 file written in the associated language. They are 'turned on' by listing
 them in an ordered stanza in \`/etc/irods/server\_config.json\`:
 
-~~~~ {.lang:js .decode:true}
+~~~~
     "re_plugins": [
         {
             "instance_name": "irods_rule_engine_plugin_python-instance",
@@ -173,7 +173,7 @@ getSessionVar(*name, *output) {
 
 #### Javascript
 
-~~~~ {.lang:js .decode:true}
+~~~~
 /* Javascript - core.js */
 
 function jsFunc0(callback) {
@@ -206,7 +206,7 @@ function XXXacPostProcForPut(callback) {
 
 #### Python
 
-~~~~ {.lang:python .decode:true}
+~~~~
 # Python - core.py
 
 import datetime
@@ -348,7 +348,7 @@ engine plugin is listed before the Javascript rule engine plugin in
 
 overload the acPostProcForPut() policy enforcement point
 
-~~~~ {.lang:python .decode:true}
+~~~~
 # remove prepended XXX in core.py DEMO 2 function name
 def acPostProcForPut(rule_args, callback):
 ~~~~
