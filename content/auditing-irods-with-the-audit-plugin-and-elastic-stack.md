@@ -23,7 +23,7 @@ them on to Elasticsearch which stores and indexes these. Finally Kibana
 is used to query this database and present useful information about your
 iRODS grid.
 
-<div class="full_image"><img src="../theme/img/amqp_kibana.jpg" /></div>
+<div class="full_image"><img src="./theme/img/amqp_kibana.jpg" /></div>
 
 *Note: In this post all the components will be running on the iCAT
 server. These components can be distributed to multiple servers by
@@ -474,4 +474,4 @@ You should see a sample dashboard with the following:
 5.  A line graph of the number of connections per minute per IP address.
 6.  A line graph of the number of connections per minute per user.
 
-<div class="full_image"><img src="../theme/img/kibana_dashboard4.png"/></div>
+<div class="full_image"><img src="./theme/img/kibana_dashboard4.png"/></div>

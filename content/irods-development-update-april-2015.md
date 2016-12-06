@@ -93,8 +93,8 @@ This month's development has been functional code representing the basic
 layout, login/logout, and file upload/download. The two screenshots
 below show multiselect and a details page about an iRODS Data Object.
 
-[![multiselect](http://irods.org/wp-content/uploads/2015/04/s2-300x167.jpg)](http://irods.org/wp-content/uploads/2015/04/s2.jpg)
+[![multiselect](./theme/uploads/2015/04/s2-300x167.jpg)](./theme/uploads/2015/04/s2.jpg)
 
-[![details](http://irods.org/wp-content/uploads/2015/04/s3-300x167.jpg)](http://irods.org/wp-content/uploads/2015/04/s3.jpg)
+[![details](./theme/uploads/2015/04/s3-300x167.jpg)](./theme/uploads/2015/04/s3.jpg)
 
 <!--EndFragment -->

@@ -56,7 +56,7 @@ Several additional client options exist:
 
 [caption id="attachment\_926" align="aligncenter"
 width="1024"][![iDrop-web (version 2) screen
-shot.](http://irods.org/wp-content/uploads/2014/07/idropscreenshot-1024x646.png)](http://irods.org/wp-content/uploads/2014/07/idropscreenshot.png)
+shot.](./theme/uploads/2014/07/idropscreenshot-1024x646.png)](./theme/uploads/2014/07/idropscreenshot.png)
 iDrop-web (version 2) screen shot.[/caption]
 
  

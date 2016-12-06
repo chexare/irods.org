@@ -30,12 +30,12 @@ which are scheduled to be included in our upcoming 3.0b3 release.
 > they are plugins, external from the E-iRODS core.
 
 [Paper (279kB,
-PDF)](http://irods.org/wp-content/uploads/2013/02/eirods-composable-resources.pdf)
+PDF)](./theme/uploads/2013/02/eirods-composable-resources.pdf)
 
 [Slides (321kB,
-PDF)](http://irods.org/wp-content/uploads/2013/02/eirods-cr-slides.pdf)
+PDF)](./theme/uploads/2013/02/eirods-cr-slides.pdf)
 
 [Poster (6.4MB,
-PDF)](http://irods.org/wp-content/uploads/2013/02/eirods-composable-resources-poster.pdf)
+PDF)](./theme/uploads/2013/02/eirods-composable-resources-poster.pdf)
 
-[![eirods-cr-poster-web](http://irods.org/wp-content/uploads/2013/02/eirods-cr-poster-web-300x200.png)](http://irods.org/wp-content/uploads/2013/02/eirods-composable-resources-poster.pdf)
+[![eirods-cr-poster-web](./theme/uploads/2013/02/eirods-cr-poster-web-300x200.png)](./theme/uploads/2013/02/eirods-composable-resources-poster.pdf)

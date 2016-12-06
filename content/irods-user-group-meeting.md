@@ -5,7 +5,7 @@ Category: News
 Slug: irods-user-group-meeting
 Status: published
 
-#### [***<span style="text-decoration: underline;">Final Agenda\_iRODS User Group Meeting\_2014</span>***](http://irods.org/wp-content/uploads/2014/05/Final-Agenda_iRODS-User-Meeting_2014_ver18.pdf "Final Agenda")
+#### [***<span style="text-decoration: underline;">Final Agenda\_iRODS User Group Meeting\_2014</span>***](./theme/uploads/2014/05/Final-Agenda_iRODS-User-Meeting_2014_ver18.pdf "Final Agenda")
 
 ### 
 

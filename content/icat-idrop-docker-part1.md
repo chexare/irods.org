@@ -98,12 +98,12 @@ Once the container is running, we can test it out. On the host machine,
 I open a browser window and go to https://localhost:8543/idrop-web2. I
 have to acknowledge a warning...
 
-[![idrop-docker1](http://irods.org/wp-content/uploads/2014/07/idrop-docker1-300x116.png)](http://irods.org/wp-content/uploads/2014/07/idrop-docker1.png)
+[![idrop-docker1](./theme/uploads/2014/07/idrop-docker1-300x116.png)](./theme/uploads/2014/07/idrop-docker1.png)
 
 But once I do, I can log in with username and password "rods" to take a
 test drive.
 
-[![idrop-docker2](http://irods.org/wp-content/uploads/2014/07/idrop-docker2.png)](http://irods.org/wp-content/uploads/2014/07/idrop-docker2.png)Next
+[![idrop-docker2](./theme/uploads/2014/07/idrop-docker2.png)](./theme/uploads/2014/07/idrop-docker2.png)Next
 steps would be to install iCommands on the host, change the
 administrator password, and create some new users.
 

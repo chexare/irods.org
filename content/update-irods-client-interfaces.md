@@ -28,7 +28,7 @@ and from collections, annotating files and collections with metadata,
 and more. Cloud Browser is available from [DICE-UNC on
 Github](https://github.com/DICE-UNC/irods-cloud-browser).
 
-[![image](http://irods.org/wp-content/uploads/2015/12/image-300x228.png)](https://irods.org/wp-content/uploads/2015/12/image.png)
+[![image](./theme/uploads/2015/12/image-300x228.png)](https://irods.org/wp-content/uploads/2015/12/image.png)
 
   
    

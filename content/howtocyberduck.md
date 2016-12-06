@@ -152,7 +152,7 @@ connection using a .cyberduckprofile Connection Profile file.
     -   Close the bookmark window.
 
     <p>
-    [![cyberduckprofile](http://irods.org/wp-content/uploads/2015/09/cyberduckprofile.png)](http://irods.org/wp-content/uploads/2015/09/cyberduckprofile.png)
+    [![cyberduckprofile](./theme/uploads/2015/09/cyberduckprofile.png)](./theme/uploads/2015/09/cyberduckprofile.png)
 
 ### Using Cyberduck
 
@@ -174,7 +174,7 @@ In the Cyberduck window, double-click a bookmark.
    
 
 <p>
-[![cyberduckmenu](http://irods.org/wp-content/uploads/2015/09/cyberduckmenu.png)](http://irods.org/wp-content/uploads/2015/09/cyberduckmenu.png)
+[![cyberduckmenu](./theme/uploads/2015/09/cyberduckmenu.png)](./theme/uploads/2015/09/cyberduckmenu.png)
 
 </li>
 <li>
@@ -208,7 +208,7 @@ Click the Cyberduck Go menu and then click Go to Folder:
    
   
 
-[![cyberduckfolder](http://irods.org/wp-content/uploads/2015/09/cyberduckfolder.png)](http://irods.org/wp-content/uploads/2015/09/cyberduckfolder.png)  
+[![cyberduckfolder](./theme/uploads/2015/09/cyberduckfolder.png)](./theme/uploads/2015/09/cyberduckfolder.png)  
   
 
 <li>

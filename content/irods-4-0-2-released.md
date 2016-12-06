@@ -55,7 +55,7 @@ issue](https://github.com/mysqludf/lib_mysqludf_preg/issues/13)).
 The Oracle database plugin is not packaged for SuSE at this time.
 
 iRODS Manual (4.0.2), Jun 2014 [(PDF,
-527KB)](http://irods.org/wp-content/uploads/2014/06/irods-manual-4.0.2.pdf)
+527KB)](./theme/uploads/2014/06/irods-manual-4.0.2.pdf)
 
 Please find the latest files available
 at <ftp://ftp.renci.org/pub/irods/releases/4.0.2/>.

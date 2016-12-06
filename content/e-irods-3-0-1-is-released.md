@@ -49,7 +49,7 @@ This release includes packages that have been tested on CentOS 5 and 6,
 SuSE 11 and 12, and Ubuntu 10 and 12.
 
 E-iRODS Manual (3.0.1), Nov 2013 [(PDF,
-430KB)](http://irods.org/wp-content/uploads/2012/02/eirods-manual-3.0.1.pdf)
+430KB)](./theme/uploads/2012/02/eirods-manual-3.0.1.pdf)
 
 Please find the latest files available at <http://irods.org/download>.
 

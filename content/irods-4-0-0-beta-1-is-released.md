@@ -48,7 +48,7 @@ This release includes packages that have been tested on CentOS 5 and 6,
 SuSE 11 and 12, and Ubuntu 10 and 12.
 
 iRODS Manual (4.0.0b1), Jan 2014 [(PDF,
-396KB)](http://irods.org/wp-content/uploads/2014/01/irods-manual-4.0.0b1.pdf)
+396KB)](./theme/uploads/2014/01/irods-manual-4.0.0b1.pdf)
 
 Please find the latest files available
 at <ftp://ftp.renci.org/pub/irods/releases/4.0.0b1/>.

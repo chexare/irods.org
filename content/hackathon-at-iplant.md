@@ -40,4 +40,4 @@ Read the rest of the post at
    
   
 
-![IMG\_0263](http://irods.org/wp-content/uploads/2015/02/IMG_0263-1024x414.jpg)
+![IMG\_0263](./theme/uploads/2015/02/IMG_0263-1024x414.jpg)

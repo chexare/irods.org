@@ -6,7 +6,7 @@ Slug: registration-now-open-for-irods-user-group-meeting-2016
 Status: published
 
 [![Registration Now
-Open](http://irods.org/wp-content/uploads/2016/02/reg_open.jpg)](http://www.cvent.com/d/lfq9l9/4W)
+Open](./theme/uploads/2016/02/reg_open.jpg)](http://www.cvent.com/d/lfq9l9/4W)
 
 [](http://www.cvent.com/d/lfq9l9/4W)
 

@@ -71,7 +71,7 @@ Zone provides services to clients via the iRODS API and the wire-line
 protocol.
 
 [![Control
-Plane](http://irods.org/wp-content/uploads/2015/03/ControlPlaneDiagram.jpg)](http://irods.org/wp-content/uploads/2015/03/ControlPlaneDiagram.jpg)
+Plane](./theme/uploads/2015/03/ControlPlaneDiagram.jpg)](./theme/uploads/2015/03/ControlPlaneDiagram.jpg)
 
  
 

@@ -49,16 +49,16 @@ Now, follow these steps to get up and running.
 Step 1: Log in at [aws.amazon.com](https://aws.amazon.com/).  
 Step 2: Set your region to "US East" or "N. Virginia".  
 [![AWS
-Region](http://irods.org/wp-content/uploads/2014/12/AWS-Region-300x217.png)](http://irods.org/wp-content/uploads/2014/12/AWS-Region.png)  
+Region](./theme/uploads/2014/12/AWS-Region-300x217.png)](./theme/uploads/2014/12/AWS-Region.png)  
 Step 3: Click "EC2".  
 [![AWS
-EC2](http://irods.org/wp-content/uploads/2014/12/AWS-EC2-300x254.png)](http://irods.org/wp-content/uploads/2014/12/AWS-EC2.png)  
+EC2](./theme/uploads/2014/12/AWS-EC2-300x254.png)](./theme/uploads/2014/12/AWS-EC2.png)  
 Step 4: Click "AMIs".  
 
-[![AMIs](http://irods.org/wp-content/uploads/2014/12/AMIs-300x226.png)](http://irods.org/wp-content/uploads/2014/12/AMIs.png)  
+[![AMIs](./theme/uploads/2014/12/AMIs-300x226.png)](./theme/uploads/2014/12/AMIs.png)  
 Step 5: Select "Public images" from the dropdown selector.  
 [![AMI
-launch](http://irods.org/wp-content/uploads/2014/12/AMI-launch-300x187.png)](http://irods.org/wp-content/uploads/2014/12/AMI-launch.png)
+launch](./theme/uploads/2014/12/AMI-launch-300x187.png)](./theme/uploads/2014/12/AMI-launch.png)
 
 Step 6: Search for the beppodb/irods-aws AMI. The most recent version is
 AMI ID ~~ami-ee0a9686~~ ami-7ab7d912.
@@ -78,13 +78,13 @@ Step 10: Configure security group. Open ports 22 (SSH), 80 (HTTP), 1247
 for iRODS control, and 20000-20199 for iRODS parallel file transfers.
 
 [![AWS security
-group](http://irods.org/wp-content/uploads/2014/12/AWS-security-group-300x62.png)](http://irods.org/wp-content/uploads/2014/12/AWS-security-group.png)
+group](./theme/uploads/2014/12/AWS-security-group-300x62.png)](./theme/uploads/2014/12/AWS-security-group.png)
 
 Step 11: Review, associate key pairs, and launch!
 
 Step 12: Click "Instance".
 
-[![Instances](http://irods.org/wp-content/uploads/2014/12/Instances-300x95.png)](http://irods.org/wp-content/uploads/2014/12/Instances.png)
+[![Instances](./theme/uploads/2014/12/Instances-300x95.png)](./theme/uploads/2014/12/Instances.png)
 
 Step 13: Wait a few minutes, then check for a hostname.
 

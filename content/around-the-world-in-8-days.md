@@ -9,23 +9,23 @@ I recently had the opportunity to talk about iRODS in London and
 Shenzhen. The timing worked out juuust right, so I was able to make both
 meetings while flying east the whole time.  
 
-![aroundtheworld2014](http://irods.org/wp-content/uploads/2014/09/aroundtheworld2014.jpg)  
+![aroundtheworld2014](./theme/uploads/2014/09/aroundtheworld2014.jpg)  
 <!--more-->  
 The trip started out with a joint iRODS-DDN User Group Meeting at
 University College London. We discussed iRODS integration with DDN
 hardware, the [Consortium vision for grid configuration
-management](http://irods.org/wp-content/uploads/2014/09/iRODS-4.0-and-Beyond-UK-September-2014.pdf "iRODS DDN UK User Group Meeting Slides"),
+management](./theme/uploads/2014/09/iRODS-4.0-and-Beyond-UK-September-2014.pdf "iRODS DDN UK User Group Meeting Slides"),
 and use cases from University College London, the Wellcome Trust Sanger
 Institute, University of Florida, the iPlant Collaborative, and Public
 Health England. Presentations from the event are available
-[here](http://irods.org/wp-content/uploads/2014/09/iRODS-4.0-and-Beyond-UK-September-2014.pdf "iRODS DDN UK User Group Meeting Slides").
+[here](./theme/uploads/2014/09/iRODS-4.0-and-Beyond-UK-September-2014.pdf "iRODS DDN UK User Group Meeting Slides").
 
 From London, I traveled to Shenzhen for the International Conference on
 Genomics. It was fascinating to listen to talks on topics ranging from
 biobanking to microbiota of the digestive tract to the publication of
 genomics data sets. I presented on our recent initiative to create a
 reference implementation for next generation sequencing. (Slides
-[here](http://irods.org/wp-content/uploads/2014/09/Managing-NGS-Data-using-iRODS.pdf "ICG-9 Presentation").)
+[here](./theme/uploads/2014/09/Managing-NGS-Data-using-iRODS.pdf "ICG-9 Presentation").)
 I'm seeking input from iRODS users and life sciences researchers! Please
 contact me.
 

@@ -22,7 +22,7 @@ interactions in a widely distributed environment didn't exist.
 [![Reagan Moore, left, with RENCI Director Stan Ahalt after receiving recognition
 for long and successful career at the recent iRODS User Group meeting in
 Chapel Hill,
-NC.](http://irods.org/wp-content/uploads/2016/06/Moore-UGM-1600x-768x510.jpg)](http://irods.org/wp-content/uploads/2016/06/Moore-UGM-1600x-768x510.jpg)
+NC.](./theme/uploads/2016/06/Moore-UGM-1600x-768x510.jpg)](./theme/uploads/2016/06/Moore-UGM-1600x-768x510.jpg)
 
 <div class="green_font">Reagan Moore addresses attendees at the iRODS User Group Meeting, held
 June 8 and 9 in Chapel Hill, NC.</div>
@@ -66,7 +66,7 @@ two decades and involved much hard work as well as an aggressive goal.
 Moore, left, with RENCI Director Stan Ahalt after receiving recognition
 for long and successful career at the recent iRODS User Group meeting in
 Chapel Hill,
-NC.](http://irods.org/wp-content/uploads/2016/06/Moore-Ahalt-1600x-768x512.jpg)](http://irods.org/wp-content/uploads/2016/06/Moore-Ahalt-1600x-768x512.jpg)
+NC.](./theme/uploads/2016/06/Moore-Ahalt-1600x-768x512.jpg)](./theme/uploads/2016/06/Moore-Ahalt-1600x-768x512.jpg)
 <div class="green_font">Reagan Moore, left, with RENCI Director Stan Ahalt after receiving
 recognition for long and successful career at the recent iRODS User
 Group meeting in Chapel Hill, NC.</div>
@@ -149,7 +149,7 @@ interim executive director of the iRODS Consortium, at the annual iRODS
 User Group Meeting in June. In the background are Helen Tibbo, a
 professional in the UNC School of Information and Library Science, and
 Chaitan Baru, senior advisor for data science in the NSF's CISE
-directorate.](http://irods.org/wp-content/uploads/2016/06/Moore-Coposky-1600x-768x512.jpg)](http://irods.org/wp-content/uploads/2016/06/Moore-Coposky-1600x-768x512.jpg)
+directorate.](./theme/uploads/2016/06/Moore-Coposky-1600x-768x512.jpg)](./theme/uploads/2016/06/Moore-Coposky-1600x-768x512.jpg)
 <div class="green_font">Reagan Moore, left, is congratulated for his years of service by Jason
 Coposky, interim executive director of the iRODS Consortium, at the
 annual iRODS User Group Meeting in June. In the background are Helen

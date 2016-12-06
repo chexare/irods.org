@@ -17,4 +17,4 @@ Governor's Square Room, Sheraton Downtown Denver Hotel
 1550 Court Place
 
 [Read more in this printable
-PDF](http://irods.org/wp-content/uploads/2013/10/E-iRODS-postcard-SC13.pdf).
+PDF](./theme/uploads/2013/10/E-iRODS-postcard-SC13.pdf).

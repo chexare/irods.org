@@ -136,7 +136,7 @@ http://localhost:8080/idrop-web2.
 
 [caption id="attachment\_1005" align="aligncenter" width="300"][![This
 is what it should look
-like.](http://irods.org/wp-content/uploads/2014/08/idrop-login-300x215.png)](http://irods.org/wp-content/uploads/2014/08/idrop-login.png)
+like.](./theme/uploads/2014/08/idrop-login-300x215.png)](./theme/uploads/2014/08/idrop-login.png)
 This is what it should look like.[/caption]  
   
 

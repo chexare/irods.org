@@ -13,7 +13,7 @@ The first thing to understand is how data grids are structured in iRODS.
 I made this simple little diagram to help:
 
 [![iRODS Zone
-Topology](http://irods.org/wp-content/uploads/2014/06/iRODS-Grid-Topology1-1024x572.png)](http://irods.org/wp-content/uploads/2014/06/iRODS-Grid-Topology1.png)
+Topology](./theme/uploads/2014/06/iRODS-Grid-Topology1-1024x572.png)](./theme/uploads/2014/06/iRODS-Grid-Topology1.png)
 
 <!--more-->
 

@@ -17,11 +17,11 @@ a uniform namespace and common policy engine to manage the demanding
 tiering required for modern life sciences research.
 
 PDF: [Speed Research
-Discovery](http://irods.org/wp-content/uploads/2016/07/Speed-Research-Discovery-UC.pdf)
+Discovery](./theme/uploads/2016/07/Speed-Research-Discovery-UC.pdf)
 
 **Life Sciences / HPC Storage and Data Management Architecture**  
 [caption id="attachment\_4004" align="alignleft"
-width="1024"][![hgst-panasas-figure1](http://irods.org/wp-content/uploads/2016/07/hgst-panasas-figure1-1024x767.png "Life Sciences / HPC Storage and Data Management Architecture")](http://irods.org/wp-content/uploads/2016/07/hgst-panasas-figure1.png)
+width="1024"][![hgst-panasas-figure1](./theme/uploads/2016/07/hgst-panasas-figure1-1024x767.png "Life Sciences / HPC Storage and Data Management Architecture")](./theme/uploads/2016/07/hgst-panasas-figure1.png)
 Figure 1. Life sciences and HPC storage architecture example with iRODS
 federated data grids[/caption]
 

@@ -9,7 +9,7 @@ The iRODS Consortium is pleased to share the proceedings from the 8th
 Annual iRODS User Group Meeting in June 2016 in Chapel Hill, NC.
 
 [iRODS UGM 2016 Proceedings (PDF
-9.1MB)](../theme/uploads/2016/12/irods_ugm2016_proceedings.pdf)
+9.1MB)](./theme/uploads/2016/12/irods_ugm2016_proceedings.pdf)
 
 **ARTICLES**
 

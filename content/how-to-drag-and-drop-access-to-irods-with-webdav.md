@@ -53,13 +53,13 @@ certification chain.
 7.  Pull down the selection box next to "Attached to:" and select
     "Host-only Adapter".  
 
-    [![adapter2](http://irods.org/wp-content/uploads/2015/04/adapter2-300x250.png)](http://irods.org/wp-content/uploads/2015/04/adapter2.png)
+    [![adapter2](./theme/uploads/2015/04/adapter2-300x250.png)](./theme/uploads/2015/04/adapter2.png)
 8.  Click "OK"
 9.  In VirtualBox, click the "Start" button.
 10. Open a terminal and use `ifconfig` to get the IP address of eth1.
     **Take note of this IP address. You will need it later.**  
 
-    [![ipaddr](http://irods.org/wp-content/uploads/2015/04/ipaddr-300x198.png)](http://irods.org/wp-content/uploads/2015/04/ipaddr.png)
+    [![ipaddr](./theme/uploads/2015/04/ipaddr-300x198.png)](./theme/uploads/2015/04/ipaddr.png)
 
 ### Install and Configure Tomcat, Proxied by Apache, with SSL
 
@@ -100,7 +100,7 @@ certification chain.
 
     Fill in the appropriate information for your certificate.
 
-    [![certs-1](http://irods.org/wp-content/uploads/2015/04/certs-1-300x193.png)](http://irods.org/wp-content/uploads/2015/04/certs-1.png)
+    [![certs-1](./theme/uploads/2015/04/certs-1-300x193.png)](./theme/uploads/2015/04/certs-1.png)
 
     ~~~~ {.lang:sh .decode:true}
     sudo mv webdavssl.key /etc/ssl/certs
@@ -253,7 +253,7 @@ Update `irods-webdav/pom.xml`
 a: Change "milton-server-ce" to "milton-server-ent"
 
 </li>
-[![pomxml](http://irods.org/wp-content/uploads/2015/04/pomxml-300x191.png)](http://irods.org/wp-content/uploads/2015/04/pomxml.png)
+[![pomxml](./theme/uploads/2015/04/pomxml-300x191.png)](./theme/uploads/2015/04/pomxml.png)
 
   
    
@@ -319,7 +319,7 @@ For Mac OSX:
 
 You should now have access to your iRODS collections via WebDAV.  
 
-[![mounted](http://irods.org/wp-content/uploads/2015/04/mounted-300x167.png)](http://irods.org/wp-content/uploads/2015/04/mounted.png)
+[![mounted](./theme/uploads/2015/04/mounted-300x167.png)](./theme/uploads/2015/04/mounted.png)
 
 For Windows:
 
@@ -341,4 +341,4 @@ For Windows:
 
 You should now have access to your iRODS collections via WebDAV.  
 
-[![winexample](http://irods.org/wp-content/uploads/2015/04/winexample-300x234.png)](http://irods.org/wp-content/uploads/2015/04/winexample.png)
+[![winexample](./theme/uploads/2015/04/winexample-300x234.png)](./theme/uploads/2015/04/winexample.png)
