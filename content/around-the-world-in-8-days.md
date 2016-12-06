@@ -9,7 +9,7 @@ I recently had the opportunity to talk about iRODS in London and
 Shenzhen. The timing worked out juuust right, so I was able to make both
 meetings while flying east the whole time.  
 
-![aroundtheworld2014](./theme/uploads/2014/09/aroundtheworld2014.jpg)  
+<div class="full_image"><img src="./theme/uploads/2014/09/aroundtheworld2014.jpg" /></div>  
 <!--more-->  
 The trip started out with a joint iRODS-DDN User Group Meeting at
 University College London. We discussed iRODS integration with DDN

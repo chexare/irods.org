@@ -467,7 +467,7 @@ The log here is much less verbose than in DEMO 2. The first four lines
 represent the \`irm\`.
 
 The next section has the physical path and then the logical path of the
-file in flight (puppies.jpg). Then we see the EXIF complete line. The
+file in flight (puppies.jpg" /></div>. Then we see the EXIF complete line. The
 work in DEMO 3 was done in the database rather than in the rodsLog.
 
 We can see the extracted EXIF information in the database with a

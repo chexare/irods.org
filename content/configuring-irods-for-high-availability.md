@@ -44,7 +44,7 @@ For this demonstration, I set up 7 virtual servers.
 -   Resource2.example.org - 192.168.1.156
 -   CLI1.example.org - 192.168.1.154
 
-[![high\_a](./theme/uploads/2015/07/high_a-756x1024.jpg)](./theme/uploads/2015/07/high_a.jpg)
+<div class="full_image"><img src="./theme/uploads/2015/07/high_a.jpg" /></div>
 
 To give each server the IP addresses and hostnames listed above,
 configure /etc/hosts as follows:

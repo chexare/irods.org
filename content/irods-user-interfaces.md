@@ -56,7 +56,7 @@ Several additional client options exist:
 
 [caption id="attachment\_926" align="aligncenter"
 width="1024"][![iDrop-web (version 2) screen
-shot.](./theme/uploads/2014/07/idropscreenshot-1024x646.png)](./theme/uploads/2014/07/idropscreenshot.png)
+shot.](./theme/uploads/2014/07/idropscreenshot-1024x646.png" /></div>](./theme/uploads/2014/07/idropscreenshot.png" /></div>
 iDrop-web (version 2) screen shot.[/caption]
 
  

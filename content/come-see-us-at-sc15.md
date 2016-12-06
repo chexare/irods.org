@@ -5,7 +5,7 @@ Category: News
 Slug: come-see-us-at-sc15
 Status: published
 
-!["sc15"](./theme/img/sc15card.jpg)
+<div class="full_image"><img src="./theme/img/sc15card.jpg" /></div>
 
 **Learn why** the biggest names in storage are joining forces on iRODS
 
@@ -35,4 +35,4 @@ RSVP to attend! Demos, use cases, tutorials ...
 ***Courtyard Austin Downtown***
 (a quick 5 minute walk across the street from the Convention Center)
 
-!["map"](./theme/img/sc15map.jpg)
+<div class="full_image"><img src="./theme/img/sc15map.jpg" /></div>

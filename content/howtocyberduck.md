@@ -152,7 +152,7 @@ connection using a .cyberduckprofile Connection Profile file.
     -   Close the bookmark window.
 
     <p>
-    [![cyberduckprofile](./theme/uploads/2015/09/cyberduckprofile.png)](./theme/uploads/2015/09/cyberduckprofile.png)
+    <div class="full_image"><img src="./theme/uploads/2015/09/cyberduckprofile.png" /></div>
 
 ### Using Cyberduck
 
@@ -174,7 +174,7 @@ In the Cyberduck window, double-click a bookmark.
    
 
 <p>
-[![cyberduckmenu](./theme/uploads/2015/09/cyberduckmenu.png)](./theme/uploads/2015/09/cyberduckmenu.png)
+<div class="full_image"><img src="./theme/uploads/2015/09/cyberduckmenu.png" /></div>
 
 </li>
 <li>
@@ -208,7 +208,7 @@ Click the Cyberduck Go menu and then click Go to Folder:
    
   
 
-[![cyberduckfolder](./theme/uploads/2015/09/cyberduckfolder.png)](./theme/uploads/2015/09/cyberduckfolder.png)  
+<div class="full_image"><img src="./theme/uploads/2015/09/cyberduckfolder.png" /></div>  
   
 
 <li>

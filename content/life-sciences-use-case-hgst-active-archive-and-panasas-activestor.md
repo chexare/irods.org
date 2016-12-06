@@ -21,7 +21,7 @@ Discovery](./theme/uploads/2016/07/Speed-Research-Discovery-UC.pdf)
 
 **Life Sciences / HPC Storage and Data Management Architecture**  
 [caption id="attachment\_4004" align="alignleft"
-width="1024"][![hgst-panasas-figure1](./theme/uploads/2016/07/hgst-panasas-figure1-1024x767.png "Life Sciences / HPC Storage and Data Management Architecture")](./theme/uploads/2016/07/hgst-panasas-figure1.png)
+width="1024"]<div class="full_image"><img src="./theme/uploads/2016/07/hgst-panasas-figure1.png" /></div>
 Figure 1. Life sciences and HPC storage architecture example with iRODS
 federated data grids[/caption]
 

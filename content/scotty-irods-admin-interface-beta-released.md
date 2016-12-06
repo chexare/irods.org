@@ -42,4 +42,4 @@ Download:
 
 Dependencies: Tomcat7
 
-[![dashboard](./theme/uploads/2013/03/dashboard-798x1024.png)](./theme/uploads/2013/03/dashboard.png)
+<div class="full_image"><img src="./theme/uploads/2013/03/dashboard.png" /></div>

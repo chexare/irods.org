@@ -15,11 +15,11 @@ announce that [BioBuilds](http://biobuilds.org/) now hosts an
 <http://biobuilds.org/irods-for-ppc64le/>.  
 <!--more-->
 
-[![power8](./theme/uploads/2015/04/power8-300x104.png)](./theme/uploads/2015/04/power8.png)
+<div class="full_image"><img src="./theme/uploads/2015/04/power8.png" /></div>
 
  
 
-[![ibmsmall](./theme/uploads/2015/04/ibmsmall-150x60.png)](./theme/uploads/2015/04/ibmsmall.png)
+<div class="full_image"><img src="./theme/uploads/2015/04/ibmsmall.png" /></div>
 
 This work has been spearheaded by IBM engineers, with some support from
 Consortium staff members. At risk of pre-empting the press release (it's

@@ -12,7 +12,7 @@ has been spearheaded by the [DataNet Federation
 Consortium](http://datafed.org/)\*, with extensive collaboration and
 assistance from the User Interface Team of the iRODS Consortium.
 
-[![image](./theme/uploads/2015/12/image-1024x779.png)](./theme/uploads/2015/12/image.png)
+<div class="full_image"><img src="./theme/uploads/2015/12/image.png" /></div>
 
 This first release requires a couple of manual steps to install and set
 up the web application properly. We are in the process of developing a

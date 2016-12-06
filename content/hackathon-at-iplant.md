@@ -40,4 +40,4 @@ Read the rest of the post at
    
   
 
-![IMG\_0263](./theme/uploads/2015/02/IMG_0263-1024x414.jpg)
+<div class="full_image"><img src="./theme/uploads/2015/02/IMG_0263-1024x414.jpg" /></div>

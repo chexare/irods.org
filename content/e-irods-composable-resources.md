@@ -38,4 +38,4 @@ PDF)](./theme/uploads/2013/02/eirods-cr-slides.pdf)
 [Poster (6.4MB,
 PDF)](./theme/uploads/2013/02/eirods-composable-resources-poster.pdf)
 
-[![eirods-cr-poster-web](./theme/uploads/2013/02/eirods-cr-poster-web-300x200.png)](./theme/uploads/2013/02/eirods-composable-resources-poster.pdf)
+<div class="full_image"><img src="./theme/uploads/2013/02/eirods-composable-resources-poster.pdf)
