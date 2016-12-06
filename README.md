@@ -30,3 +30,6 @@ rsync -arv output/ user@target:/path/to/output/
 ```
 
 - Syncs built output directory to target server
+
+## Activate deployed .htaccess
+
