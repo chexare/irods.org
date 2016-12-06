@@ -16,7 +16,7 @@ With the following configuration, one can control the priority of reads
 and writes to particular resources (and therefore, particular physical
 and network locations).
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ ilsresc
 replResc:replication
 ├── pt-private:passthru
@@ -42,7 +42,7 @@ passthru resources. Note the weights on the public passthru multiply the
 votes from its child by 1.1x for both read and write and the private
 passthru multiply the votes from its child by 0.9x.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iadmin mkresc replResc replication
 $ iadmin mkresc child-public unixfilesystem `hostname`:/tmp/child-public
 $ iadmin mkresc child-private unixfilesystem `hostname`:/tmp/child-private
@@ -53,7 +53,7 @@ $ iadmin mkresc pt-private passthru '' 'read=0.9;write=0.9'
 Then I wire together the hierarchy with the public and private sides as
 children of the replication resource:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iadmin addchildtoresc replResc pt-public
 $ iadmin addchildtoresc replResc pt-private
 $ iadmin addchildtoresc pt-public child-public
@@ -62,7 +62,7 @@ $ iadmin addchildtoresc pt-private child-private
 
 This is the finished hierarchy:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ ilsresc
 demoResc
 replResc:replication
@@ -74,7 +74,7 @@ replResc:replication
 
 I upload a single file into the replication resource:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iput -R replResc VERSION.json
 ~~~~
 
@@ -82,7 +82,7 @@ I show that there are two replicas, with the first replica (numbered 0)
 on the public resource and the second replica (numbered 1) on the
 private resource:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ ils -L VERSION.json
 /tempZone/home/rods:
   rods              0 replResc;pt-public;child-public          105 2015-07-30.11:19 & VERSION.json
@@ -96,13 +96,13 @@ resource to \*lose\* the vote (by changing the weights to be less than
 the 0.9x still applied to the child of the private weighted passthru
 resource).
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iadmin modresc pt-public context "read=0.8;write=0.8"
 ~~~~
 
 I put a new file:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iput -R replResc RELEASE_NOTES
 ~~~~
 
@@ -110,7 +110,7 @@ And then confirm replica 0 (the first replica) of the new file is on the
 private resource and the second replica (numbered 1) is on the public
 resource:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ ils -L RELEASE_NOTES
   rods              0 replResc;pt-private;child-private         1139 2015-07-30.11:28 & RELEASE_NOTES
         generic    /tmp/child-private/home/rods/RELEASE_NOTES

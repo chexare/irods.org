@@ -30,7 +30,7 @@ the github repo, commit ffbf25191c. We are now downloading iRODS version
 4.0.3 rather than version 4.0.2, and I've updated the iDrop Web 2
 pointers to a provisionally stable location.</em>
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 FROM ubuntu:14.04
 ~~~~
 

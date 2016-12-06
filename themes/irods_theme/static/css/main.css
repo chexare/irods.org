@@ -202,7 +202,16 @@ header .intro-text .skills {
     width: 140px;
     height: 40px;
 }
+.error_404{
+    background: url("../img/404_error.jpg")no-repeat center;
+    background-size: contain;
+    width: 500px;
+    height: 100px;
+}
 .core_icon{
+    width: 100%;
+}
+.full_image img{
     width: 100%;
 }
 .members_splash{

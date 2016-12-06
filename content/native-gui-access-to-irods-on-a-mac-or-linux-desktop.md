@@ -86,13 +86,13 @@ installed.
 
 -   Install Homebrew, see [brew.sh](http://brew.sh).
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install"
 ~~~~
 
 -   Install some packages from Homebrew.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ brew tap homebrew/dupes
 $ brew install autoconf automake curl wget libiconv help2man libtool mysql openssl pcre pkg-config shtool
 ~~~~
@@ -100,7 +100,7 @@ $ brew install autoconf automake curl wget libiconv help2man libtool mysql opens
 -   Install Perl JSON module from CPAN (Comprehensive Perl Archive
     Network).
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ sudo cpan install JSON
 ~~~~
 
@@ -109,7 +109,7 @@ $ sudo cpan install JSON
 -   Clone my forked irods [repo](https://github.com/ilarik/irods), with
     build patches to build against openssl-1.0 from Homebrew.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ git clone https://github.com/ilarik/irods
 $ cd irods
 $ git submodule init; git submodule update
@@ -117,7 +117,7 @@ $ git submodule init; git submodule update
 
 -   Build iRODS icommands.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ ./packaging/build.sh --run-in-place icommands
 ~~~~
 
@@ -128,13 +128,13 @@ $ ./packaging/build.sh --run-in-place icommands
     class="lang:default decode:true crayon-inline">\$IRODS\_HOME</span> 
     with the absolute path of the irods directory in the previous step.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 export PATH=$PATH:$IRODS_HOME/iRODS/clients/icommands/bin
 ~~~~
 
 -   Clone the kanki-irodsclient repo from the develop branch.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 git clone https://github.com/ilarik/kanki-irodsclient.git -b develop
 ~~~~
 
@@ -145,7 +145,7 @@ git clone https://github.com/ilarik/kanki-irodsclient.git -b develop
     class="lang:default decode:true crayon-inline">IRODS\_HOME</span> 
     with the absolute path of your irods directory.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 OSX_IRODS_BUILD=IRODS_HOME
 OSX_IRODS_BOOST=boost_1_58_0z
 OSX_IRODS_JANSSON=jansson-2.7
@@ -161,7 +161,7 @@ OSX_IRODS_JANSSON=jansson-2.7
     Qt root is <span
     class="lang:default decode:true crayon-inline">\~/Qt/5.5/clang\_64</span> .
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ cd kanki-irodsclient
 $ ./build.sh -q ~/Qt/5.5/clang_64
 ~~~~
@@ -172,7 +172,7 @@ $ ./build.sh -q ~/Qt/5.5/clang_64
     class="lang:default decode:true crayon-inline">iinit</span> to setup
     an iRODS environment and then you may launch iRODS.app.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iinit
 One or more fields in your iRODS environment file (irods_environment.json) are
 missing; please enter them.
@@ -204,7 +204,7 @@ namespaces and attribute definitions in the namespaces. I will post
 instructions for this later on. An example attribute definition looks
 like
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 <irods:attribute name="modified" unit="false" editable="true">
   <irods:label>Modification Time</irods:label>
   <irods:displayFilter type="regExp">

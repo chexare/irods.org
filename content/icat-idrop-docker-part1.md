@@ -50,7 +50,7 @@ right now, here's what you need to do (below is written for Ubuntu).
 Note, this requires about 1GB of disk space, and I was running it on a
 VM with 1GB of RAM.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 sudo apt-get install docker.io ; alias docker='sudo docker.io'
 git clone https://github.com/irods/contrib
 cd contrib/irods-docker

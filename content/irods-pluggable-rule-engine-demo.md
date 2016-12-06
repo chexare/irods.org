@@ -61,7 +61,7 @@ form of a set of rules that are executed by the rule engine.
 The following is a sorted list of some of the dynamic PEPs hit by a
 simple \`iput\` by the auditing rule engine plugin:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 audit_pep_auth_agent_auth_response_post 
 audit_pep_auth_agent_auth_response_pre 
 audit_pep_auth_agent_start_post 
@@ -146,7 +146,7 @@ The following three rule bases are installed into \`/etc/irods/\`:
 
 #### iRODS Rule Language
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 # existing iRODS Rule Language - custom.re
 
 irodsFunc0() {
@@ -263,13 +263,13 @@ without manipulating any of the PEPs in the system.
 
 iput a file into iRODS
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iput puppies.jpg
 ~~~~
 
 rodsLog:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 Jan 13 13:00:04 pid:26540 NOTICE: Agent process 30793 started for puser=rods and cuser=rods from #.#.#.#
 Jan 13 13:00:04 pid:30793 NOTICE: readAndProcClientMsg: received disconnect msg from client
 Jan 13 13:00:04 pid:30793 NOTICE: Agent exiting with status = 0
@@ -291,21 +291,21 @@ running the same \`iput puppies.jpg\` command.
 
 overload the acPostProcForPut() policy enforcement point
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 # remove prepended XXX in core.js DEMO 1 function name
 function acPostProcForPut(callback) {...}
 ~~~~
 
 remove, then iput the same file into iRODS
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ irm -rf puppies
 $ iput puppies.jpg
 ~~~~
 
 rodsLog:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 Jan 13 13:01:34 pid:26540 NOTICE: Agent process 30936 started for puser=rods and cuser=rods from #.#.#.#
 Jan 13 13:01:35 pid:30936 NOTICE: readAndProcClientMsg: received disconnect msg from client
 Jan 13 13:01:35 pid:30936 NOTICE: Agent exiting with status = 0
@@ -355,14 +355,14 @@ def acPostProcForPut(rule_args, callback):
 
 remove, then iput the same file into iRODS
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ irm -rf puppies
 $ iput puppies.jpg
 ~~~~
 
 rodsLog:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 Jan 13 13:02:01 pid:26540 NOTICE: Agent process 30986 started for puser=rods and cuser=rods from #.#.#.#
 Jan 13 13:02:01 pid:30986 NOTICE: readAndProcClientMsg: received disconnect msg from client
 Jan 13 13:02:01 pid:30986 NOTICE: Agent exiting with status = 0
@@ -429,26 +429,26 @@ file.
 
 overload the acPostProcForPut() policy enforcement point
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 # prepend XXX in core.py DEMO 2 function name to disable
 def XXXacPostProcForPut(rule_args, callback):
 ~~~~
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 # remove prepended XXX in core.py DEMO 3 function name
 def acPostProcForPut(rule_args, callback):
 ~~~~
 
 remove, then iput the same file into iRODS
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ irm -rf puppies
 $ iput puppies.jpg
 ~~~~
 
 rodsLog:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 Jan 13 13:02:50 pid:26540 NOTICE: Agent process 31039 started for puser=rods and cuser=rods from #.#.#.#
 Jan 13 13:02:50 pid:31039 NOTICE: readAndProcClientMsg: received disconnect msg from client
 Jan 13 13:02:50 pid:31039 NOTICE: Agent exiting with status = 0
@@ -475,7 +475,7 @@ separate command.
 
 list the newly extracted and associated metadata
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ imeta ls -d puppies.jpg
 AVUs defined for dataObj puppies.jpg:
 <snip>
@@ -523,7 +523,7 @@ units:
 
 This information be verified by using a third-party tool \`jhead\`:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ jhead puppies.jpg
 File name    : puppies.jpg
 File size    : 95891 bytes

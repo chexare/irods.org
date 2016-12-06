@@ -11,26 +11,44 @@
             </div>
             <hr class="small_centered_line_green">
             <div class="col-lg-offset-1 col-lg-10 col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 col-xs-offset-0 col-xs-12 text-left" >
-                <h3><strong>iRODS 4.1.10 is the newest iRODS release.</strong></h3>
+                <h3><strong>iRODS 4.2.0 is the newest iRODS release.</strong></h3>
                 <h3>Documentation</h3>
                 Up-to-date iRODS Documentation is at <a href="https://docs.irods.org/" target="_blank">docs.irods.org</a>
-                <br/>
-                Release notes are available at <a href="https://docs.irods.org/4.1.10/release_notes/">https://docs.irods.org/4.1.10/release_notes/</a>.
-                <br/>
-                <a href="#legacy">Documentation for earlier versions</a>
-                <br/><br/>
+
+                Release notes are available at <a href="https://docs.irods.org/4.2.0/release_notes/">https://docs.irods.org/4.2.0/release_notes/</a>.
+
                 <h3>Source Code</h3>
                 iRODS source code is available on GitHub at <a href="https://github.com/irods/irods">https://github.com/irods/irods</a>
-                <br/><br/>
-                <h3>Binary Distributions</h3>
-                Binaries are provided to install iRODS for specific combinations of architecture and operating system. Find your combination below and click to download.
-                <br/><br/>
-                <strong>Please note:</strong>
 
+                <h3>Binary Distributions</h3>
+                RPM and DEB formats are available. There are variations available for combinations of platform and operating system.
+
+                More combinations will be made available as our testing matrix continues to mature and increase in scope.
+
+                The latest packages can be downloaded from our APT and YUM repositories hosted at <a href="https://packages.irods.org">https://packages.irods.org</a>.
+
+                <h3>Installation Examples</h3>
+                <pre>sudo apt-get install irods-server irods-database-plugin-postgres</pre>
+                <br/>
+                or
+                <br/>
+                <pre>sudo yum install irods-server irods-database-plugin-postgres</pre>
+                <br/>
+                <h3>Upgrade Examples</h3>
+                <pre>sudo apt-get install irods-server irods-database-plugin-postgres</pre>
+                <br/>
+                or
+                <br/>
+                <pre>sudo yum update irods-server irods-database-plugin-postgres</pre>
+                <br/>
+                <h3>4-1-stable Packages</h3>
+                Before the move to APT and YUM repositories, the binary iRODS packages were made available via FTP.
+                <br/>
+                <strong>Please note:</strong>
                 <ul>
-                <li>Deploying an iCAT server requires the iCAT package and one database plugin package.</li>
-                <li>Additional resource servers may be deployed using the resource server package.</li>
-                <li>To deploy iCommands on a client machine, use the iCommands package.</li>
+                    <li>Deploying an iCAT server requires the iCAT package and one database plugin package.</li>
+                    <li>Additional resource servers may be deployed using the resource server package.</li>
+                    <li>To deploy iCommands on a client machine, use the iCommands package.</li>
                 </ul>
                 <br/>
                 <h3>x86_64</h3>

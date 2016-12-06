@@ -54,7 +54,7 @@ package from GitHub, build and then install the iping package.
 
 Perform the following steps on ICAT.example.org:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 export PATH=/opt/irods-externals/cmake3.5.2-0/bin:$PATH 
 cd ~
 git clone https://github.com/irods/contrib
@@ -67,7 +67,7 @@ sudo dpkg -i irods-iping_4.2.0~trusty_amd64.deb
 
 Now let's test the iping command:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iping -h Resource1.example.org
 OK : connection to iRODS server successful
 $ iping -h Resource2.example.org
@@ -80,7 +80,7 @@ As another test, bring down one of the resource servers by either
 shutting down the machine or stopping the iRODS service (or possibly
 specifying a port other than the default of 1247).
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iping -h Resource1.example.org -p 1247
 ERROR: _rcConnect: connectToRhost error, server on Resource1.example.org:1247 is probably down status = -305111 USER_SOCK_CONNECT_ERR, Connection refused
 $ echo $?
@@ -96,7 +96,7 @@ Installing Nagios on the iCAT server
 For simplicity, we will install Nagios on the iCAT server since we
 already have the iping command installed there.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 sudo apt install nagios3 nagios-nrpe-plugin
 ~~~~
 
@@ -111,7 +111,7 @@ Configuring Nagios
 We need to create a directory for iRODS configuration and update the
 nagios.cfg to look for configuration files in this new directory.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 mkdir -p /etc/nagios3/irods
 echo "cfg_dir=/etc/nagios3/irods" >> /etc/nagios3/nagios.cfg
 ~~~~
@@ -119,7 +119,7 @@ echo "cfg_dir=/etc/nagios3/irods" >> /etc/nagios3/nagios.cfg
 Now create `/etc/nagios3/irods/irods.cfg` which will be a configuration
 file for the iping service. Put the following contents in this file:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 define host {
     name             irods-server-template
     use              generic-host 
@@ -210,7 +210,7 @@ Create scripts to perform the iping and update the resource states
 Now we will create a bash script that is a wrapper around iping. This
 script will be placed in `/usr/lib/nagios/plugins/iping.sh`.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 #!/bin/bash
 
 export HOME=/var/lib/nagios
@@ -227,7 +227,7 @@ fi
 
 Make sure that this script can be executed.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 chmod +x /usr/lib/nagios/plugins/iping.sh
 ~~~~
 
@@ -235,7 +235,7 @@ When the iping service notices a resource state has changed, it will
 update the resource's status in the iRODS database. Create the following
 script in `/usr/lib/nagios/plugins/update_irods_resc_state.sh`:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 #/bin/bash
 
 export HOME=/var/lib/nagios
@@ -280,14 +280,14 @@ Restart Nagios and Test
 
 Restart Nagios
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 sudo service nagios3 restart
 ~~~~
 
 Now bring down a resource server. Wait for approximately a minute and
 check the resource status.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iadmin lr Resource1Resource | grep resc_status
 resc_status: down
 ~~~~
@@ -295,7 +295,7 @@ resc_status: down
 Bring up the resource server. Wait another minute and check the resource
 status.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iadmin lr Resource1Resource | grep resc_status
 resc_status: up
 ~~~~
@@ -310,7 +310,7 @@ as necessary.
 
 Let's create the resource hierarchy:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iadmin mkresc RootResource replication
 Creating resource:
 Name:       "RootResource"
@@ -329,7 +329,7 @@ RootResource:replication
 
 With both resources up let's put a file into iRODS.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ echo test > test.txt
 $ iput -R RootResource test.txt
 $ ils -l test.txt
@@ -342,7 +342,7 @@ Resource1Resource is the lowest replica number, iRODS will attempt to
 read test.txt from this resource. If Resource1Resource is still marked
 as up this will fail.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iget test.txt -
 ERROR: getUtil: get error for - status = -305111 USER_SOCK_CONNECT_ERR, Connection refused
 ~~~~
@@ -351,7 +351,7 @@ Now let's wait a minute or so and try to get test.txt one more time. By
 this time Resource1Resource will have been marked as down and the system
 will retrieve the file from Resource2Resource as we would prefer.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 $ iget test.txt -
 test
 ~~~~
@@ -367,7 +367,7 @@ The first step is to add a max\_bytes setting to our resources' context
 string. Just for demonstration purposes we will set the max\_bytes to
 500 bytes.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 iadmin modresc context Resource1Resource "max_bytes=500"
 iadmin modresc context Resource2Resource "max_bytes=500"
 ~~~~
@@ -382,7 +382,7 @@ Next we need to update our configuration to create a service to monitor
 the bytes. Update `/etc/nagios3/irods/irods.cfg` and append the
 following to the bottom of this file:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 define command {
         command_name  check-resource-use
         command_line /usr/lib/nagios/plugins/check_resource_use.sh $HOSTALIAS$ $ARG1$ $ARG2$
@@ -425,7 +425,7 @@ the check-resource-use command. We have hardcoded the warning level to
 Now we just need to create the `check_resource_use.sh` script. This
 script is provided below.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 #!/bin/bash
 
 export HOME=/var/lib/nagios
@@ -490,7 +490,7 @@ Testing Resource Use
 
 Restart Nagios so that it can read the new configuration.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 sudo service nagios3 restart
 ~~~~
 
@@ -515,7 +515,7 @@ nagios's `irods_environment.json`. Update
 Adjust the values for these to match what you have in your server
 configuration.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
     "irods_server_control_plane_encryption_algorithm": "AES-256-CBC",
     "irods_server_control_plane_encryption_num_hash_rounds": 16,
     "irods_server_control_plane_key": "12345678901234567890123456789012",
@@ -528,7 +528,7 @@ execute and a service to execute this command. Update
 `/etc/nagios3/irods/irods.cfg` and append the following to the bottom of
 this file:
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 define host {
         use             irods-server-template
         host_name       ICAT
@@ -559,7 +559,7 @@ We now need to create the `check_agent_count.sh` script. Create
 `/usr/lib/nagios/plugins/check_agent_count.sh` with the following
 contents and make this file executable.
 
-~~~~ {.lang:default .decode:true}
+~~~~ 
 #!/bin/bash
 
 export HOME=/var/lib/nagios
