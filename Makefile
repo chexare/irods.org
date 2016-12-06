@@ -37,7 +37,7 @@ ifeq ($(RELATIVE), 1)
 	PELICANOPTS += --relative-urls
 endif
 
-default: clean irods
+default: clean html
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
@@ -62,9 +62,6 @@ help:
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
-
-irods:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -t themes/irods_theme
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
@@ -101,7 +98,7 @@ stopserver:
 	$(BASEDIR)/develop_server.sh stop
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
-publish:
+publish: clean
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 ssh_upload: publish

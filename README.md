@@ -22,7 +22,13 @@ pip install -r requirements.txt
 make
 ```
 
-- Cleans existing output directory and rebuilds website
+- Cleans existing output directory and rebuilds website during development
+
+```
+make publish
+```
+
+- Builds website for publishing (with absolute URLs and feeds)
 
 ## Deploy via rsync
 ```
