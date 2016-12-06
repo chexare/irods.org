@@ -5,13 +5,9 @@ Category: News
 Slug: registration-now-open-for-irods-user-group-meeting-2016
 Status: published
 
-[![Registration Now
-Open](./theme/uploads/2016/02/reg_open.jpg" /></div>](http://www.cvent.com/d/lfq9l9/4W)
+<div class="full_image"><img src="./theme/uploads/2016/02/reg_open.jpg" /></div>
 
-[](http://www.cvent.com/d/lfq9l9/4W)
-
-<div
-style="margin:0px auto 20px; font-family:helvetica; color:#fff; font-size:20px; height:46px; padding:15px 0px; text-align:center; width:250px; background:#00a388">
+<div style="margin:0px auto 20px; font-family:helvetica; color:#fff; font-size:20px; height:46px; padding:15px 0px; text-align:center; width:250px; background:#00a388">
 
 REGISTER NOW!
 
@@ -59,10 +55,7 @@ End Date: Thursday, June 9th
 Start Date: Wednesday, June 8th  
 End Date: Thursday, June 9th
 
-[](http://www.cvent.com/d/lfq9l9/4W)
-
-<div
-style="margin:0px auto 20px; font-family:helvetica; color:#fff; font-size:20px; height:46px; padding:15px 0px; text-align:center; width:250px; background:#00a388">
+<div style="margin:0px auto 20px; font-family:helvetica; color:#fff; font-size:20px; height:46px; padding:15px 0px; text-align:center; width:250px; background:#00a388">
 
 REGISTER NOW!
 

@@ -5,8 +5,9 @@ Category: News, Release
 Slug: welcome-seagate-technology-as-newest-member
 Status: published
 
-![seagate\_2c\_posR](./theme/uploads/2014/09/seagate_2c_pos-R1-300x96.jpg" /></div>CHAPEL
-HILL, NC, November 10, 2014, 2014 – Seagate Technology, a world leader
+<div class="full_image"><img src="./theme/uploads/2014/09/seagate_2c_pos-R1-300x96.jpg" /></div>
+
+CHAPEL HILL, NC, November 10, 2014, 2014 – Seagate Technology, a world leader
 in storage solutions, is the latest corporation to join the iRODS
 Consortium, a group that supports and guides the continued development
 of the integrated Rule-Oriented Data System, or iRODS.  

@@ -134,10 +134,8 @@ iCAT-VM$ sudo wget -P /var/lib/tomcat6/webapps http://people.renci.org/~danb/FOR
 Let's see if it works. Open a browser on the VM, and point it to
 http://localhost:8080/idrop-web2.
 
-[caption id="attachment\_1005" align="aligncenter" width="300"][![This
-is what it should look
-like.](./theme/uploads/2014/08/idrop-login-300x215.png" /></div>](./theme/uploads/2014/08/idrop-login.png" /></div>
-This is what it should look like.[/caption]  
+<div class="full_image"><img src="./theme/uploads/2014/08/idrop-login-300x215.png" /></div>
+<div class="green_font">This is what it should look like.</div>
   
 
 As a test case, you can log in as the iRODS administrator (the default

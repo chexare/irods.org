@@ -28,9 +28,7 @@ and from collections, annotating files and collections with metadata,
 and more. Cloud Browser is available from [DICE-UNC on
 Github](https://github.com/DICE-UNC/irods-cloud-browser).
 
-<div class="full_image"><img src="./theme/uploads/2015/12/image.png" /></div>
-
-  
+<div class="full_image"><img src="./theme/uploads/2015/12/image.png" /></div>  
    
 Another of our long-standing members, EMC Corporation, has developed
 **[MetaLnx](./theme/uploads/2015/06/Worth-MetaLnx.pdf)**,
@@ -40,10 +38,7 @@ server health checks, a user account directory, and permission
 management. MetaLnx is available for beta testing through EMC. [Contact
 us](http://irods.org/contact/) for a demo and to get in touch with EMC.
 
-[![MetaLnx
-Screenshot](./theme/uploads/2015/12/MetaLnx-Screenshot-300x146.png" /></div>](./theme/uploads/2015/12/MetaLnx-Screenshot.png" /></div>
-
-  
+<div class="full_image"><img src="./theme/uploads/2015/12/MetaLnx-Screenshot.png" /></div>  
    
 The **iPlant Discovery Environment** (DE) isn't just an iRODS client:
 it's a graphical workspace that allows users to find data and process it
@@ -69,10 +64,7 @@ post](https://irods.org/2015/10/native-gui-access-to-irods-on-a-mac-or-linux-des
 for us where he explains how to install Kanki on a Mac. Kanki is an open
 source project on [Github](https://github.com/ilarik/kanki-irodsclient).
 
-[![kanki
-screenshot](./theme/uploads/2015/12/kanki-screenshot-300x192.png" /></div>](./theme/uploads/2015/12/kanki-screenshot.png" /></div>
-
-  
+<div class="full_image"><img src="./theme/uploads/2015/12/kanki-screenshot.png" /></div>
    
 **Cyberduck** is a popular file transfer client that speaks to a host of
 systems, including FTP/SFTP, Amazon S3, Swift, and now iRODS. iRODS

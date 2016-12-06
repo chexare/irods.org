@@ -54,12 +54,7 @@ Several additional client options exist:
     flavors. iDrop is maintained by the DICE group, which originated
     iRODS (more about DICE and and iDrop-web demo in future posts).
 
-[caption id="attachment\_926" align="aligncenter"
-width="1024"][![iDrop-web (version 2) screen
-shot.](./theme/uploads/2014/07/idropscreenshot-1024x646.png" /></div>](./theme/uploads/2014/07/idropscreenshot.png" /></div>
-iDrop-web (version 2) screen shot.[/caption]
-
- 
+<div class="full_image"><img src="./theme/uploads/2014/07/idropscreenshot.png" /></div>
 
 Finally, many advanced sites choose to implement their own clients. The
 iRODS core code provides a C++ API; DICE maintains a Java API called
