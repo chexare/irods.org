@@ -33,3 +33,8 @@ rsync -arv output/ user@target:/path/to/output/
 
 ## Activate deployed .htaccess
 
+```
+    AllowOverride FileInfo
+```
+
+- For Apache, allow the deployed `.htaccess` to override settings for the active `Directory`

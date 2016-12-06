@@ -11,7 +11,7 @@ languages other than the iRODS rule language. For example, iRODS 4.2.0
 ships with a compiled default policy plugin (written in C++), and a
 Python rule engine plugin will be released shortly thereafter. Adding
 support for additional languages is also straightforward, as one only
-has to write the plugin (\<1000 LOC), add the shared object to her iRODS
+has to write the plugin (<1000 LOC), add the shared object to her iRODS
 installation, and update server\_config.json accordingly.
 
 **The cost of flexibility**
