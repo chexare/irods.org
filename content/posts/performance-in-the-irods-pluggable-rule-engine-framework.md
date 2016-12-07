@@ -1,7 +1,6 @@
 Title: Performance in the iRODS pluggable rule engine framework
 Date: 2016-11-28 08:43
 Author: Rick Skarbez
-Category: News
 Slug: performance-in-the-irods-pluggable-rule-engine-framework
 Status: published
 

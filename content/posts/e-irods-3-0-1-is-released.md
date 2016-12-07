@@ -1,7 +1,6 @@
 Title: E-iRODS 3.0.1 is released
 Date: 2013-11-17 22:15
 Author: Terrell Russell
-Category: News, Release
 Slug: e-irods-3-0-1-is-released
 Status: published
 

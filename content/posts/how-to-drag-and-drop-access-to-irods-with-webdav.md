@@ -1,7 +1,6 @@
 Title: How-To: Drag and Drop Access to iRODS with WebDAV
 Date: 2015-04-30 20:13
 Author: Dan Bedard
-Category: News
 Slug: how-to-drag-and-drop-access-to-irods-with-webdav
 Status: published
 

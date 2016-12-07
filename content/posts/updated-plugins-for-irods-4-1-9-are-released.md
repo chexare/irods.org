@@ -1,7 +1,6 @@
 Title: Updated plugins for iRODS 4.1.9 are released
 Date: 2016-09-15 12:28
 Author: Terrell Russell
-Category: News, Release
 Slug: updated-plugins-for-irods-4-1-9-are-released
 Status: published
 

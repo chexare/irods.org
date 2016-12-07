@@ -1,7 +1,6 @@
 Title: iRODS on POWER8(LE) Beta Available
 Date: 2015-04-21 14:43
 Author: Dan Bedard
-Category: News
 Slug: irods-on-power8le-beta-available
 Status: published
 

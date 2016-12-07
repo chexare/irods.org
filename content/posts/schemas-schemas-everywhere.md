@@ -1,7 +1,6 @@
 Title: Schemas, schemas everywhere
 Date: 2014-09-23 13:59
 Author: Terrell Russell
-Category: News
 Slug: schemas-schemas-everywhere
 Status: published
 

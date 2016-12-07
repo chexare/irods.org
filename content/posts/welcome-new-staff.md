@@ -1,7 +1,6 @@
 Title: Welcome Ben and Dan
 Date: 2014-06-16 12:04
 Author: Dan Bedard
-Category: News
 Slug: welcome-new-staff
 Status: published
 

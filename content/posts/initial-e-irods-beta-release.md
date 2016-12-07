@@ -1,7 +1,6 @@
 Title: Initial E-iRODS Beta Release
 Date: 2012-03-02 10:36
 Author: Terrell Russell
-Category: News, Release
 Slug: initial-e-irods-beta-release
 Status: published
 

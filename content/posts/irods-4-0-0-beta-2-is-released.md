@@ -1,7 +1,6 @@
 Title: iRODS 4.0.0 Beta 2 is released
 Date: 2014-02-18 21:29
 Author: Terrell Russell
-Category: News, Release
 Slug: irods-4-0-0-beta-2-is-released
 Status: published
 

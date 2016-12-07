@@ -1,7 +1,6 @@
 Title: Five plugins released alongside iRODS 4.0.3
 Date: 2014-08-25 09:08
 Author: Terrell Russell
-Category: News, Release
 Slug: five-plugins-released-alongside-irods-4-0-3
 Status: published
 

@@ -1,7 +1,6 @@
 Title: Update: iRODS Client Interfaces
 Date: 2015-12-04 06:42
 Author: Dan Bedard
-Category: News
 Slug: update-irods-client-interfaces
 Status: published
 

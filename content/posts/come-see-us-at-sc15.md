@@ -1,7 +1,6 @@
 Title: Come See Us at SC15!
 Date: 2015-11-06 13:44
 Author: Dan Bedard
-Category: News
 Slug: come-see-us-at-sc15
 Status: published
 

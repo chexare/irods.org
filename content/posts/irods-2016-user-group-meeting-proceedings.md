@@ -1,7 +1,6 @@
 Title: iRODS 2016 User Group Meeting Proceedings
 Date: 2016-12-01 12:08
 Author: Terrell Russell
-Category: Consortium, News
 Slug: irods-2016-user-group-meeting-proceedings
 Status: published
 

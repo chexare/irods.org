@@ -1,7 +1,6 @@
 Title: Native GUI Access to iRODS on a Mac or Linux Desktop
 Date: 2015-10-05 16:46
 Author: Ilari Korhonen
-Category: News
 Slug: native-gui-access-to-irods-on-a-mac-or-linux-desktop
 Status: published
 

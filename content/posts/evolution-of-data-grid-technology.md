@@ -1,7 +1,6 @@
 Title: Evolution of Data Grid Technology
 Date: 2016-09-20 11:31
 Author: Terrell Russell
-Category: News
 Slug: evolution-of-data-grid-technology
 Status: published
 

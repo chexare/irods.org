@@ -1,7 +1,6 @@
 Title: iRODS Demos: iCAT on a VM
 Date: 2014-06-30 09:30
 Author: Dan Bedard
-Category: News
 Slug: icat-on-a-vm
 Status: published
 

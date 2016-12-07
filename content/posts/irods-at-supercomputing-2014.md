@@ -1,7 +1,6 @@
 Title: iRODS at SuperComputing 2014
 Date: 2014-11-24 15:41
 Author: Dan Bedard
-Category: News
 Slug: irods-at-supercomputing-2014
 Status: published
 

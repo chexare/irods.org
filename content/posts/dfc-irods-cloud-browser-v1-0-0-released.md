@@ -1,7 +1,6 @@
 Title: DFC iRODS Cloud Browser v1.0.0 Released
 Date: 2015-12-01 10:19
 Author: mconway
-Category: News, Release
 Slug: dfc-irods-cloud-browser-v1-0-0-released
 Status: published
 

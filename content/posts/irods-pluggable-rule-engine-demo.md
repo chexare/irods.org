@@ -1,7 +1,6 @@
 Title: iRODS Pluggable Rule Engine Demo
 Date: 2016-01-20 14:15
 Author: Terrell Russell
-Category: Consortium, News, Slides
 Slug: irods-pluggable-rule-engine-demo
 Status: published
 

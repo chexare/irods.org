@@ -1,7 +1,6 @@
 Title: Amazon S3 Resource Plugin v1.1 released
 Date: 2014-06-25 12:16
 Author: Terrell Russell
-Category: News, Release
 Slug: amazon-s3-resource-plugin-v1-1-released
 Status: published
 

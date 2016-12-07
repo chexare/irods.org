@@ -1,7 +1,6 @@
 Title: Writing rules for the Python rule engine
 Date: 2016-07-20 12:13
 Author: Rick Skarbez
-Category: News
 Slug: writing-rules-for-the-python-rule-engine
 Status: published
 

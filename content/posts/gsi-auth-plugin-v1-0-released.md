@@ -1,7 +1,6 @@
 Title: GSI Auth Plugin v1.0 released
 Date: 2014-07-03 11:48
 Author: Terrell Russell
-Category: News, Release
 Slug: gsi-auth-plugin-v1-0-released
 Status: published
 

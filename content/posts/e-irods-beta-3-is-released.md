@@ -1,7 +1,6 @@
 Title: E-iRODS Beta 3 is released
 Date: 2013-03-15 14:33
 Author: Terrell Russell
-Category: News, Release
 Slug: e-irods-beta-3-is-released
 Status: published
 

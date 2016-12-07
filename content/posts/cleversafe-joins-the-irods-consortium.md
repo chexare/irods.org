@@ -1,7 +1,6 @@
 Title: Cleversafe joins the iRODS Consortium
 Date: 2015-05-12 09:48
 Author: Terrell Russell
-Category: News
 Slug: cleversafe-joins-the-irods-consortium
 Status: published
 

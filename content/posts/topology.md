@@ -1,7 +1,6 @@
 Title: iRODS Demos: Data Grid Topology
 Date: 2014-06-26 15:50
 Author: Dan Bedard
-Category: News
 Slug: topology
 Status: published
 

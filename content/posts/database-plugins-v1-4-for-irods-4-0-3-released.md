@@ -1,7 +1,6 @@
 Title: Database plugins v1.4 for iRODS 4.0.3 released
 Date: 2015-01-20 14:21
 Author: Terrell Russell
-Category: News, Release
 Slug: database-plugins-v1-4-for-irods-4-0-3-released
 Status: published
 

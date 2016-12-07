@@ -1,7 +1,6 @@
 Title: iRODS 4.1.9 Networking Performance Whitepaper
 Date: 2016-09-15 18:13
 Author: Terrell Russell
-Category: Consortium, News
 Slug: irods-4-1-9-networking-performance-whitepaper
 Status: published
 

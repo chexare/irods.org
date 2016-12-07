@@ -1,7 +1,6 @@
 Title: E-iRODS Beta 2 is released
 Date: 2012-06-25 14:55
 Author: Terrell Russell
-Category: News, Release
 Slug: e-irods-beta-2-is-released
 Status: published
 

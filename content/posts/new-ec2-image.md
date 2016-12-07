@@ -1,7 +1,6 @@
 Title: iRODS in the Cloud: New EC2 Image Available
 Date: 2014-12-02 06:42
 Author: Dan Bedard
-Category: News
 Slug: new-ec2-image
 Status: published
 

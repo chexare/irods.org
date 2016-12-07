@@ -1,7 +1,6 @@
 Title: iRODS 4.1.4 is released
 Date: 2015-08-05 13:16
 Author: Terrell Russell
-Category: News, Release
 Slug: irods-4-1-4-is-released
 Status: published
 

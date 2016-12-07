@@ -1,7 +1,6 @@
 Title: Around the World in 8 Days
 Date: 2014-09-25 13:01
 Author: Dan Bedard
-Category: News
 Slug: around-the-world-in-8-days
 Status: published
 

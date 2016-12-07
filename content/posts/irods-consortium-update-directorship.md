@@ -1,7 +1,6 @@
 Title: iRODS Consortium Update: Directorship
 Date: 2015-04-14 11:38
 Author: Dan Bedard
-Category: Consortium, News
 Slug: irods-consortium-update-directorship
 Status: published
 

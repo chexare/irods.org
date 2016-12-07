@@ -1,7 +1,6 @@
 Title: Profile of a Data Science Pioneer, Dr. Reagan Moore
 Date: 2016-06-28 11:41
 Author: Karen Green, RENCI
-Category: News
 Slug: profile-of-a-data-science-pioneer-dr-reagan-moore
 Status: published
 

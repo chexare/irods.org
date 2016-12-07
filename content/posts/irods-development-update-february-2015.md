@@ -1,7 +1,6 @@
 Title: iRODS Development Update: February 2015
 Date: 2015-02-26 19:42
 Author: Jason Coposky
-Category: News
 Slug: irods-development-update-february-2015
 Status: published
 

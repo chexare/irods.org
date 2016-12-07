@@ -1,7 +1,6 @@
 Title: iRODS Consortium welcomes IBM as latest member
 Date: 2015-05-28 10:21
 Author: Terrell Russell
-Category: Consortium, News
 Slug: irods-consortium-welcomes-ibm-as-latest-member
 Status: published
 

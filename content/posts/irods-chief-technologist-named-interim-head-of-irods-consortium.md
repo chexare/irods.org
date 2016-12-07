@@ -1,7 +1,6 @@
 Title: iRODS Chief Technologist named interim head of iRODS Consortium
 Date: 2016-05-23 10:14
 Author: Cesar Garde
-Category: News
 Slug: irods-chief-technologist-named-interim-head-of-irods-consortium
 Status: published
 

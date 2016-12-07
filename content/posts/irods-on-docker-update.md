@@ -1,7 +1,6 @@
 Title: iRODS on Docker (Update)
 Date: 2015-02-02 10:03
 Author: Dan Bedard
-Category: News
 Slug: irods-on-docker-update
 Status: published
 

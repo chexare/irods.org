@@ -1,7 +1,6 @@
 Title: Call for Presentations: Deadline Extended
 Date: 2015-03-10 16:17
 Author: Dan Bedard
-Category: News
 Slug: call-for-presentations-deadline-extended
 Status: published
 

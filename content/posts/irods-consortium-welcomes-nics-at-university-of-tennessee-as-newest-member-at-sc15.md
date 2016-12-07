@@ -1,7 +1,6 @@
 Title: iRODS Consortium welcomes NICS at University of Tennessee as newest member at SC15
 Date: 2015-11-18 15:23
 Author: Terrell Russell
-Category: News
 Slug: irods-consortium-welcomes-nics-at-university-of-tennessee-as-newest-member-at-sc15
 Status: published
 

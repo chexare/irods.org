@@ -1,7 +1,6 @@
 Title: iRODS 4.1.8 is released
 Date: 2016-02-22 09:17
 Author: Terrell Russell
-Category: News, Release
 Slug: irods-4-1-8-is-released
 Status: published
 

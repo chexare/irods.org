@@ -1,7 +1,6 @@
 Title: E-iRODS 3.0.1 Beta 2 is released
 Date: 2013-11-13 00:23
 Author: Terrell Russell
-Category: News, Release
 Slug: e-irods-3-0-1-beta-2-is-released
 Status: published
 

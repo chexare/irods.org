@@ -1,7 +1,6 @@
 Title: Auditing iRODS with the Audit Plugin and Elastic Stack
 Date: 2016-12-05 13:10
 Author: Justin James
-Category: News
 Slug: auditing-irods-with-the-audit-plugin-and-elastic-stack
 Status: published
 

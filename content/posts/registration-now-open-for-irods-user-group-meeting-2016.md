@@ -1,7 +1,6 @@
 Title: Registration Now Open for iRODS User Group Meeting 2016
 Date: 2016-02-03 10:31
 Author: Dan Bedard
-Category: News
 Slug: registration-now-open-for-irods-user-group-meeting-2016
 Status: published
 

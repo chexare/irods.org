@@ -1,7 +1,6 @@
 Title: iRODS 4.1.9 is released
 Date: 2016-07-28 17:33
 Author: Terrell Russell
-Category: Consortium, Release
 Slug: irods-4-1-9-is-released
 Status: published
 

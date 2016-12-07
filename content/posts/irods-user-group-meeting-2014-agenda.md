@@ -1,7 +1,6 @@
 Title: iRODS User Group Meeting 2014 Agenda
 Date: 2014-04-02 04:41
 Author: Bonnie Hurst
-Category: News
 Slug: irods-user-group-meeting-2014-agenda
 Status: published
 

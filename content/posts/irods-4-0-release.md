@@ -1,7 +1,6 @@
 Title: iRODS 4.0 Release
 Date: 2014-04-04 16:57
 Author: bonniep
-Category: News, Release
 Slug: irods-4-0-release
 Status: published
 
