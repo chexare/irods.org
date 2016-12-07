@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'iRODS Consortium'
 SITENAME = 'iRODS'
 SITEURL = ''
+SITEURL = '/newirodsorg'
 
 THEME = './themes/irods_theme'
 TIMEZONE = 'America/New_York'

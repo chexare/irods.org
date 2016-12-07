@@ -9,7 +9,7 @@ A lot has changed since [this July 2014
 post](https://irods.org/2014/07/irods-user-interfaces/) about iRODS User
 Interfaces. I've been meaning to update this for some time. So, without
 further ado, I'm going to list as many iRODS client interfaces as I can
-think of.  
+think of.
 <!--more-->
 
 **Want to test out any of these interfaces?**[Contact
@@ -28,18 +28,18 @@ and from collections, annotating files and collections with metadata,
 and more. Cloud Browser is available from [DICE-UNC on
 Github](https://github.com/DICE-UNC/irods-cloud-browser).
 
-<div class="full_image"><img src="./theme/uploads/2015/12/image.png" /></div>  
-   
+<div class="full_image"><img src="{filename}/uploads/2015/12/image.png" /></div>
+
 Another of our long-standing members, EMC Corporation, has developed
-**[MetaLnx](./theme/uploads/2015/06/Worth-MetaLnx.pdf)**,
+**[MetaLnx]({filename}/uploads/2015/06/Worth-MetaLnx.pdf)**,
 a web-based GUI that adds metadata search and administrative
 capabilities to iRODS file management. Administrative features include
 server health checks, a user account directory, and permission
 management. MetaLnx is available for beta testing through EMC. [Contact
 us](http://irods.org/contact/) for a demo and to get in touch with EMC.
 
-<div class="full_image"><img src="./theme/uploads/2015/12/MetaLnx-Screenshot.png" /></div>  
-   
+<div class="full_image"><img src="{filename}/uploads/2015/12/MetaLnx-Screenshot.png" /></div>
+
 The **iPlant Discovery Environment** (DE) isn't just an iRODS client:
 it's a graphical workspace that allows users to find data and process it
 on cloud-based high performance computing (HPC) resources. Through the
@@ -64,8 +64,8 @@ post](https://irods.org/2015/10/native-gui-access-to-irods-on-a-mac-or-linux-des
 for us where he explains how to install Kanki on a Mac. Kanki is an open
 source project on [Github](https://github.com/ilarik/kanki-irodsclient).
 
-<div class="full_image"><img src="./theme/uploads/2015/12/kanki-screenshot.png" /></div>
-   
+<div class="full_image"><img src="{filename}/uploads/2015/12/kanki-screenshot.png" /></div>
+
 **Cyberduck** is a popular file transfer client that speaks to a host of
 systems, including FTP/SFTP, Amazon S3, Swift, and now iRODS. iRODS
 support is thanks to the efforts of the iPlant Collaborative, the DICE

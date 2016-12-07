@@ -9,7 +9,7 @@ RENCI is pleased to announce the initial E-iRODS beta release at the
 2012 iRODS User Meeting in Tucson, AZ.
 
 [Poster (671KB,
-PDF)](./theme/uploads/2012/03/renci-e-irods.pdf)
+PDF)]({filename}/uploads/2012/03/renci-e-irods.pdf)
 
 We aim to provide a RENCI-certified off-the-shelf binary solution that
 works with the existing ecosystem of open source, pre-built software

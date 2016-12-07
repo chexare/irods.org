@@ -12,7 +12,7 @@ setting up these demonstrations.
 The first thing to understand is how data grids are structured in iRODS.
 I made this simple little diagram to help:
 
-<div class="full_image"><img src="./theme/uploads/2014/06/iRODS-Grid-Topology1.png" /></div>
+<div class="full_image"><img src="{filename}/uploads/2014/06/iRODS-Grid-Topology1.png" /></div>
 
 <!--more-->
 
@@ -39,4 +39,4 @@ In my next post, I'll describe how to set up an iCAT-enabled resource
 server, which combines the functionality of an iCAT server and a
 resource server on the same machine.
 
- 
+

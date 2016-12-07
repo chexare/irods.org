@@ -11,7 +11,7 @@ protocols (e.g., FTP, WebDAV). As of version 4.7.1, released July 7,
 2015, Cyberduck supports direct data transfer into and out of iRODS.
 **Cyberduck users can now directly upload and download files and
 directories from iRODS repositories using the high-throughput and
-parallel data transfer capabilities built into iRODS.**  
+parallel data transfer capabilities built into iRODS.**
 <!--more-->
 
 iRODS support in Cyberduck is due to the extraordinary efforts of the
@@ -32,7 +32,7 @@ for use with the iPlant Data Store.
 **Step 1**. Install or Update Cyberduck.
 
 </li>
-  
+
 
 <li>
 If Cyberduck is already installed, check if you need to update (must be
@@ -56,7 +56,7 @@ Follow the steps for your OS:
 
 </li>
 <ul>
-  
+
 
 </p>
 <li>
@@ -68,8 +68,8 @@ For MacOS:
     Applications folder. **IMPORTANT:** The file must be located in your
     Applications folder.
     <p>
-      
-      
+
+
    *Alternatively, you can install Cyberduck for Mac OS directly
     through the Mac Store for a fee that supports the Cyberduck
     development team.*
@@ -96,8 +96,8 @@ connection using a .cyberduckprofile Connection Profile file.
     preconfigured settings for using Cyberduck with iRODS repositories.
 2.  Use a text editor to edit the contents of the Connection Profile.
 
-      
-      
+
+
    At a minimum, you will need to edit the "Region" key with the iRODS
     Zone name and default resource that you will connect to in the
     format <span
@@ -105,7 +105,7 @@ connection using a .cyberduckprofile Connection Profile file.
     You may also edit the default hostname, or you may opt to configure
     it at runtime.
 
-      
+
    Save the updated Connection Profile.
 
     ~~~~
@@ -152,7 +152,7 @@ connection using a .cyberduckprofile Connection Profile file.
     -   Close the bookmark window.
 
     <p>
-    <div class="full_image"><img src="./theme/uploads/2015/09/cyberduckprofile.png" /></div>
+    <div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckprofile.png" /></div>
 
 ### Using Cyberduck
 
@@ -170,11 +170,11 @@ Open Cyberduck.
 
 </li>
 <li>
-In the Cyberduck window, double-click a bookmark.  
-   
+In the Cyberduck window, double-click a bookmark.
+
 
 <p>
-<div class="full_image"><img src="./theme/uploads/2015/09/cyberduckmenu.png" /></div>
+<div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckmenu.png" /></div>
 
 </li>
 <li>
@@ -204,12 +204,12 @@ Click the Cyberduck Go menu and then click Go to Folder:
 </ol>
 </li>
 <p>
-  
-   
-  
 
-<div class="full_image"><img src="./theme/uploads/2015/09/cyberduckfolder.png" /></div>  
-  
+
+
+
+<div class="full_image"><img src="{filename}/uploads/2015/09/cyberduckfolder.png" /></div>
+
 
 <li>
 **To upload a file or folder to an iRODS repository using Cyberduck**:

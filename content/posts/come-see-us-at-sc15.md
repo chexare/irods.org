@@ -19,7 +19,7 @@ you.
 **We** have lots of events planned for **SC15**. Don’t miss out!
 
 [Click
-Here](./theme/uploads/2015/10/irods_sched_sc2015.pdf) to
+Here]({filename}/uploads/2015/10/irods_sched_sc2015.pdf) to
 download the iRODS SC15 Schedule.
 
 Want to know more about iRODS? Get hands on experience at the iRODS
