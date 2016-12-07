@@ -31,7 +31,7 @@ MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
 DEFAULT_PAGINATION = False
 
-STATIC_PATHS = ['extras']
+STATIC_PATHS = ['extras','images','uploads']
 
 EXTRA_PATH_METADATA = {
     'extras/.htaccess':   {'path': '.htaccess'},
