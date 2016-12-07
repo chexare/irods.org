@@ -1,6 +1,6 @@
 Title: Life Sciences Use Case: HGST Active Archive and Panasas ActiveStor
 Date: 2016-07-26 11:53
-Author: terrell
+Author: Terrell Russell
 Category: Consortium, News, Use Cases
 Slug: life-sciences-use-case-hgst-active-archive-and-panasas-activestor
 Status: published

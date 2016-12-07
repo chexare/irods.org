@@ -1,6 +1,6 @@
 Title: Using the weighted passthru resource
 Date: 2015-08-10 16:26
-Author: terrell
+Author: Terrell Russell
 Category: News
 Slug: using-the-weighted-passthru-resource
 Status: published

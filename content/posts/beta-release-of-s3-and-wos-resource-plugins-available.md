@@ -1,6 +1,6 @@
 Title: Beta release of S3 and WOS resource plugins available
 Date: 2014-02-18 00:26
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: beta-release-of-s3-and-wos-resource-plugins-available
 Status: published

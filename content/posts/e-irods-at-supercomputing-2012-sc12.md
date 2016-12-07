@@ -1,6 +1,6 @@
 Title: E-iRODS at Supercomputing 2012 (SC12)
 Date: 2012-10-09 14:48
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: e-irods-at-supercomputing-2012-sc12
 Status: published

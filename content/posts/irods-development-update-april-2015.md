@@ -1,6 +1,6 @@
 Title: iRODS Development Update: April 2015
 Date: 2015-04-30 23:06
-Author: jasonc
+Author: Jason Coposky
 Category: News
 Slug: irods-development-update-april-2015
 Status: published

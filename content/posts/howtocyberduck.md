@@ -1,6 +1,6 @@
 Title: How To: Using Cyberduck for iRODS File Transfers
 Date: 2015-09-08 08:48
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: howtocyberduck
 Status: published

@@ -1,6 +1,6 @@
 Title: Monitoring iRODS Resources with Nagios
 Date: 2016-09-21 12:00
-Author: jjames
+Author: Justin James
 Category: News
 Slug: monitoring-irods-resources-with-nagios
 Status: published

@@ -1,6 +1,6 @@
 Title: Western Digital Corporation Joins iRODS Consortium To Help Advance Adoption Of Cloud Storage Architectures
 Date: 2016-04-05 07:01
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: hgst-joins-the-irods-consortium
 Status: published

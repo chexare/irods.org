@@ -1,6 +1,6 @@
 Title: iRODS Job Postings
 Date: 2015-03-11 10:04
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: irods-job-postings
 Status: published

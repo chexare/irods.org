@@ -1,6 +1,6 @@
 Title: iRODS 4.0.1 is released
 Date: 2014-06-06 11:55
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: irods-4-0-1-released
 Status: published

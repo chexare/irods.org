@@ -1,6 +1,6 @@
 Title: iRODS Demos: iDrop Web 2
 Date: 2014-08-06 23:47
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: idrop-web-demo
 Status: published

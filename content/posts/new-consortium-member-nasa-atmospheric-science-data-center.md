@@ -1,6 +1,6 @@
 Title: New Consortium Member: NASA Atmospheric Science Data Center
 Date: 2015-02-09 06:45
-Author: danb
+Author: Dan Bedard
 Category: News
 Tags: consortium, geoscience, irods, members, membership, nasa
 Slug: new-consortium-member-nasa-atmospheric-science-data-center

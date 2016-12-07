@@ -1,6 +1,6 @@
 Title: E-iRODS at Supercomputing 2013 (SC13)
 Date: 2013-10-16 16:41
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: e-irods-at-supercomputing-2013-sc13
 Status: published

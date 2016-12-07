@@ -1,6 +1,6 @@
 Title: Hackathon at iPlant
 Date: 2015-02-09 11:12
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: hackathon-at-iplant
 Status: published

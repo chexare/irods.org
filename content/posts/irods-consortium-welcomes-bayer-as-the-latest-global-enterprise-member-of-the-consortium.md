@@ -1,6 +1,6 @@
 Title: iRODS Consortium welcomes Bayer as the latest global enterprise member of the consortium
 Date: 2016-08-11 10:50
-Author: cgarde
+Author: Cesar Garde
 Category: News
 Slug: irods-consortium-welcomes-bayer-as-the-latest-global-enterprise-member-of-the-consortium
 Status: published

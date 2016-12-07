@@ -1,6 +1,6 @@
 Title: User Group Meeting: June 9-11, 2015
 Date: 2015-02-03 08:14
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: save-the-date-ugm15
 Status: published

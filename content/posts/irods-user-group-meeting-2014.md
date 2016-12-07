@@ -1,6 +1,6 @@
 Title: iRODS User Group Meeting 2014
 Date: 2014-06-30 13:30
-Author: wbeeler_1908
+Author: Terrell Russell
 Category: News
 Slug: irods-user-group-meeting-2014
 Status: published

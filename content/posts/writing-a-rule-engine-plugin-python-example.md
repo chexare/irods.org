@@ -1,6 +1,6 @@
 Title: Writing a Rule Engine Plugin (Python example)
 Date: 2016-07-11 17:11
-Author: rskarbez
+Author: Rick Skarbez
 Category: News
 Slug: writing-a-rule-engine-plugin-python-example
 Status: published

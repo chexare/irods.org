@@ -1,6 +1,6 @@
 Title: Panasas Joins iRODS Consortium To Advance The Storage Performance Needs Of Life Science Markets
 Date: 2016-04-26 15:37
-Author: cgarde
+Author: Cesar Garde
 Category: Consortium, News
 Slug: panasas-joins-irods-consortium-to-advance-the-storage-performance-needs-of-life-science-markets
 Status: published

@@ -1,6 +1,6 @@
 Title: Kerberos Auth Plugin v1.0 released
 Date: 2014-07-03 11:29
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: kerberos-auth-plugin-v1-0-released
 Status: published

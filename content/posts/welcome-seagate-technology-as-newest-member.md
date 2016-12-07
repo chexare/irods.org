@@ -1,6 +1,6 @@
 Title: iRODS Consortium welcomes Seagate Technology as newest member
 Date: 2014-11-10 15:27
-Author: wbeeler_1908
+Author: Terrell Russell
 Category: News, Release
 Slug: welcome-seagate-technology-as-newest-member
 Status: published

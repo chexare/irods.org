@@ -1,13 +1,13 @@
-Title: iRODS User Group Meeting
+Title: iRODS User Group Meeting 2014 Agenda
 Date: 2014-04-02 04:41
-Author: bonniep
+Author: Bonnie Hurst
 Category: News
-Slug: irods-user-group-meeting
+Slug: irods-user-group-meeting-2014-agenda
 Status: published
 
 #### [***<span style="text-decoration: underline;">Final Agenda\_iRODS User Group Meeting\_2014</span>***]({filename}/uploads/2014/05/Final-Agenda_iRODS-User-Meeting_2014_ver18.pdf "Final Agenda")
 
-### 
+###
 
 <div>
 
@@ -48,11 +48,11 @@ charged upon arrival at the meeting. Checks should be made payable to
 The University of North Carolina at Chapel Hill.
 
 The iRODS Consortium and the DICE Center are jointly coordinating the
-iRODS User Group meeting:  
-June 18-19, 2014  
-S010, Tsai Auditorium,  
-Institute for Quantitative Social Science,  
-Harvard University,  
+iRODS User Group meeting:
+June 18-19, 2014
+S010, Tsai Auditorium,
+Institute for Quantitative Social Science,
+Harvard University,
 Cambridge, MA 02138
 
 Information about hotels in the area is available
@@ -70,23 +70,23 @@ paradigm of sustainable policy-based management, sharing, and
 preservation of today's diverse and rapidly growing digital data
 collections.
 
-Papers are solicited on topics including:  
-- Implementation of data management applications using iRODS  
+Papers are solicited on topics including:
+- Implementation of data management applications using iRODS
 - Development of new features for improving data management
-capabilities  
+capabilities
 - Site reports from existing iRODS users, including descriptions of the
-types of collections that are managed  
+types of collections that are managed
 - Policy sets for managing, administering, or verifying collection
 properties
 
 If you would like to present a paper, please send e-mail to Reagan
 Moore, rwmoore@renci.org.
 
-Sessions will be held on:  
-- Planned feature development in iRODS  
-- New iDrop-web interface  
-- Status of the iRODS consortium  
-- iRODS version 4.0 (port to a pluggable architecture)  
+Sessions will be held on:
+- Planned feature development in iRODS
+- New iDrop-web interface
+- Status of the iRODS consortium
+- iRODS version 4.0 (port to a pluggable architecture)
 - Tutorial on installation of iRODS
 
 The iRODS User Group Meetings are a good source of information and use

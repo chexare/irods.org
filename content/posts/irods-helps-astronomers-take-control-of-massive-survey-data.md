@@ -1,6 +1,6 @@
 Title: iRODS helps astronomers take control of massive survey data
 Date: 2016-01-07 10:55
-Author: wbeeler_1908
+Author: Terrell Russell
 Category: News
 Slug: irods-helps-astronomers-take-control-of-massive-survey-data
 Status: published

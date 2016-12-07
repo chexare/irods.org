@@ -1,6 +1,6 @@
 Title: HPSS Resource Plugin v1.1 released
 Date: 2015-11-30 14:51
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: hpss-resource-plugin-v1-1-released
 Status: published

@@ -1,6 +1,6 @@
 Title: iRODS Partners and iRODS Hub: New Ways to Access Support and Plugins
 Date: 2015-08-31 17:02
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: irods-partners-and-irods-hub
 Status: published

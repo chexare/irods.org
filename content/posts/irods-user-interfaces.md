@@ -1,6 +1,6 @@
 Title: iRODS User Interfaces
 Date: 2014-07-09 16:14
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: irods-user-interfaces
 Status: published

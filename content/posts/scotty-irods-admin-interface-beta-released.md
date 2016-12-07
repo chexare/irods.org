@@ -1,6 +1,6 @@
 Title: Scotty: iRODS Admin Interface - Beta Released
 Date: 2013-03-01 04:30
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: scotty-irods-admin-interface-beta-released
 Status: published

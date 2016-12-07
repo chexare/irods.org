@@ -1,6 +1,6 @@
 Title: Slides Posted: iRODS User Group Meeting 2015
 Date: 2015-06-18 11:25
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: slides-posted-irods2015
 Status: published

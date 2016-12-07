@@ -1,6 +1,6 @@
 Title: E-iRODS Composable Resources
 Date: 2013-02-27 20:11
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: e-irods-composable-resources
 Status: published

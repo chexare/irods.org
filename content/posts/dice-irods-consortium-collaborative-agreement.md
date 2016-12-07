@@ -1,6 +1,6 @@
 Title: DICE & iRODS Consortium Collaborative Agreement
 Date: 2013-06-06 12:49
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: dice-irods-consortium-collaborative-agreement
 Status: published

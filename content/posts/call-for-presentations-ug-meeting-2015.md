@@ -1,6 +1,6 @@
 Title: Call for Presentations: UG Meeting 2015
 Date: 2015-02-12 06:59
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: call-for-presentations-ug-meeting-2015
 Status: published

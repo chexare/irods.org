@@ -1,6 +1,6 @@
 Title: First Things First
 Date: 2014-06-10 14:52
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: first-things-first
 Status: published

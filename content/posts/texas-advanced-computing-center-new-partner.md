@@ -1,6 +1,6 @@
 Title: iRODS Consortium Welcomes Texas Advanced Computing Center to Partner Program
 Date: 2016-01-11 12:50
-Author: wbeeler_1908
+Author: Terrell Russell
 Category: News
 Slug: texas-advanced-computing-center-new-partner
 Status: published

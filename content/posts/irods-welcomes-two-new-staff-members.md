@@ -1,6 +1,6 @@
 Title: iRODS Welcomes Two New Staff Members
 Date: 2015-03-31 16:15
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: irods-welcomes-two-new-staff-members
 Status: published

@@ -1,6 +1,6 @@
 Title: Configuring iRODS for High Availability
 Date: 2015-07-07 15:14
-Author: jjames
+Author: Justin James
 Category: News
 Slug: configuring-irods-for-high-availability
 Status: published

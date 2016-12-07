@@ -1,6 +1,6 @@
 Title: EC2 Image: iRODS 4.1 w/ Cloud Browser, WebDAV, S3
 Date: 2016-03-21 09:20
-Author: terrell
+Author: Terrell Russell
 Category: Consortium, News, Release
 Slug: ec2-image-irods-4-1-w-cloud-browser-webdav-s3
 Status: published

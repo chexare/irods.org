@@ -1,6 +1,6 @@
 Title: iRODS Consortium welcomes prestigious European university as newest member
 Date: 2016-06-14 15:15
-Author: cgarde
+Author: Cesar Garde
 Category: News
 Slug: irods-consortium-welcomes-prestigious-european-university-as-newest-member
 Status: published

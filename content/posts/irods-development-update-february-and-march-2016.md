@@ -1,6 +1,6 @@
 Title: iRODS Development Update: February and March 2016
 Date: 2016-04-02 23:32
-Author: jasonc
+Author: Jason Coposky
 Category: Consortium, News
 Slug: irods-development-update-february-and-march-2016
 Status: published

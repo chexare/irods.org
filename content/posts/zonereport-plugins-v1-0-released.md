@@ -1,6 +1,6 @@
 Title: Zonereport Plugins v1.0 released
 Date: 2014-12-04 23:55
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: zonereport-plugins-v1-0-released
 Status: published

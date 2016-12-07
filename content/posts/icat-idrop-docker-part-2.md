@@ -1,6 +1,6 @@
 Title: iRODS Demos - iCAT + iDrop-web + Docker (Part 2)
 Date: 2014-07-23 09:32
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: icat-idrop-docker-part-2
 Status: published

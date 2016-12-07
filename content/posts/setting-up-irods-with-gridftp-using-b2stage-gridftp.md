@@ -1,6 +1,6 @@
 Title: Setting Up iRODS with GridFTP using B2STAGE-GridFTP
 Date: 2015-12-16 10:31
-Author: jjames
+Author: Justin James
 Category: News
 Slug: setting-up-irods-with-gridftp-using-b2stage-gridftp
 Status: published

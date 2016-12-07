@@ -1,6 +1,6 @@
 Title: User Group Registration is Live!
 Date: 2015-03-23 06:59
-Author: danb
+Author: Dan Bedard
 Category: News
 Slug: user-group-registration-is-live
 Status: published

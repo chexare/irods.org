@@ -1,6 +1,6 @@
 Title: E-iRODS 3.0 Release Candidate
 Date: 2013-05-14 20:05
-Author: terrell
+Author: Terrell Russell
 Category: News, Release
 Slug: e-irods-3-0-release-candidate
 Status: published

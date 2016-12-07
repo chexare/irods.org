@@ -1,6 +1,6 @@
 Title: Distributing and using iCommands in user-land
 Date: 2015-05-19 14:14
-Author: jasonc
+Author: Jason Coposky
 Category: News
 Slug: distributing-and-using-icommands-in-user-land
 Status: published
