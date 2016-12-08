@@ -43,7 +43,6 @@ STATIC_PATHS = ['extras','images','uploads']
 
 EXTRA_PATH_METADATA = {
     'extras/.htaccess':   {'path': '.htaccess'},
-    'extras/robots.txt':  {'path': 'robots.txt'},
 }
 
 # No feeds while in development, requires absolute SITEURL (done in production)
