@@ -2,9 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+# If developing on a server at the root level, leave set to empty ''
+SITEURL = ''
+# If developing in a subdirectory, use leading slash
+#SITEURL = '/path/to/subdirectory'
+# Production setting is found in publishconf.py
+# Used via 'make publish'
+
 AUTHOR = 'iRODS Consortium'
 SITENAME = 'iRODS'
-SITEURL = ''
 
 THEME = './themes/irods_theme'
 TIMEZONE = 'America/New_York'
@@ -26,6 +32,8 @@ TAGS_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
 ARCHIVES_SAVE_AS = ''
+
+# archives
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
@@ -38,7 +46,7 @@ EXTRA_PATH_METADATA = {
     'extras/robots.txt':  {'path': 'robots.txt'},
 }
 
-# Feed generation is usually not desired when developing
+# No feeds while in development, requires absolute SITEURL (done in production)
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 CATEGORY_FEED_RSS = None
