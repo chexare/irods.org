@@ -32,14 +32,17 @@ a.active {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
     font-family: Helvetica,Arial,sans-serif;
     font-weight: bold;
     color:#58595b;
 }
-
+h4 {
+    font-family: tristram;
+    font-size: 39px;
+    font-weight: lighter;
+}
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
