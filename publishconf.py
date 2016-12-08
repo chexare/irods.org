@@ -14,6 +14,7 @@ SITEURL = 'https://irods.org'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_MAX_ITEMS = 10
 
 DELETE_OUTPUT_DIRECTORY = True
 
